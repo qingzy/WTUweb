@@ -1,0 +1,317 @@
+
+<html>
+<head>
+<meta charset="UTF-8">
+<title>æ³¨åé¡µé¢</title>
+  <link href="css/register.css" rel="stylesheet">
+  	<script src="js/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+
+ <div id="loginForm">
+		 <p>
+			<span id="zhuce">æ³¨åè´¦å·</span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span><a href="login.jsp">å·²æè´¦å·ï¼å»ç»å½</a></span>
+		 </p>
+ 	
+        <form action="../AddServlet.do" method="post" id="form01">
+        <input name="id" value="2" type="hidden"/>
+            <p><input id="userName" name="userName" type="text" placeholder="ç¨æ·å"/>
+            </p>
+            <p>
+             <span id="userNamemessage"></span>
+            </p>
+           
+            <p><input id="Name" name="Name" type="text" placeholder="çå®å§å"/>
+            </p>
+ 			<p>
+             <span id="Namemessage"></span>
+            </p>
+                
+            <p><input id="email" name="email" type="text" placeholder="é®ç®±"/>
+            </p>
+			<p>
+             <span id="emailmessage"></span>
+            </p>
+             
+            <p>
+            	<select id="shengfen" name="shengfen" Î¿nchange="test1();">
+            		<option value=" " id="shengfen1" >è¯·éæ©çä»½</option>
+            	</select>
+             </p>			
+            <p>
+             	<span id="shengfenmessage"></span>
+            </p>
+           
+            <p>
+            	<select id="city" name="city" >
+            		<option value=" " id="city1" >è¯·éæ©åå¸</option>
+            	</select>
+             </p>
+			<p>
+             	<span id="citymessage"></span>
+            </p>
+            <p><input id="password" name="password" type="password" placeholder="å¯ç Â"/>   	
+            </p>
+            <p>
+               <span id="passwordmessage"></span>
+            </p>
+            
+            <p><input id="password2" name="password2" type="password" placeholder="ç¡®è®¤å¯ç "/> 	
+            </p>
+            <p>
+            	<span id="password2message"></span>
+            </p>
+            
+            <p>
+                <input id="btLogin" type="button" value="æ³¨å" onClick="check()"></p>
+        </form>
+    </div>
+</body>
+<script >
+	var flag1=/^[a-zA-Z]+[0-9a-zA-Z]{3,14}$/ //è¡¨ç¤ºåªè½ä½¿ç¨è±æå­æ¯åæ°å­ï¼ä»¥å­æ¯å¼å¤´ï¼é¿åº¦ä¸º4å°15ä¸ªå­ç¬¦
+    var flag2=/^[\u4e00-\u9fa5]{2,4}$/;//çå®å§ååªè½æ¯2-4é¿åº¦çä¸­æ
+    var flag3=/^([a-zA-Z0-9_.-]+)@([da-z.-]+).([a-z.]{2,6})$/; //é®ç®±å°åæ¯å¦åæ³
+    var flag4=/^.{4,}$/; //å¯ç é¿åº¦è³å°ä¸º4
+    
+    var sheng =$("#shengfen");
+    var shi =$("#city");
+  
+	var f1,f2,f3,f4,f5,f6,f7;
+    var shengJson =[];
+    var shiJson =[];
+    fn();  //å è½½é¡µé¢çæ¶åå°±ç´æ¥å è½½è¿ä¸ªåå§åçä»½çä¿¡æ¯
+
+
+		//çä»½ååå¸ä¿¡æ¯çæ¾ç¤º
+		//1ãå è½½æ°æ®
+		function fn(){
+		    $.ajax({
+		        "url" : "city.json",
+		        "dataType" : "json",
+		        "type" : "GET",
+		        "success" :function(data){
+		            //æè¿åçæ°æ®å è½½å°çä»½å¯¹åºçä¸ææ¡ä¸­
+		            shengJson = data.city;
+		            var op01="";
+		
+		            //éåshengJsonéçnameå±æ§åå¥å°optionæ ç­¾é
+		            $(shengJson).each(function(){
+		                //å¨é¡µé¢ä¸­åå»ºæ ç­¾
+		                op01 +="<option id='shengfen1' value='"+this.name+"'>"+this.name+"</option>"
+		            });
+		            //æåå»ºçoptionæ ç­¾æ·»å å°selectæ ç­¾éå»
+		            sheng.append(op01);
+		        }
+		    });
+		}
+		
+		//2.éæ©ä¸ä¸ªçä»½åï¼å¨ç¬¬äºä¸ªä¸ææ¡ä¸­å è½½å¯¹åºè¿ä¸ªçä»½ææçå¸åºä¿¡æ¯
+		sheng.change(function(){
+		    //å è½½æ°æ®åæä¹åçæ°æ®æ¸ç©º
+		    shi.children().not(":first").remove();
+		    
+		
+		    //éåææççä»½ä¿¡æ¯ï¼å¤æ­ç¨æ·éæ©çèº«ä»½ä¿¡æ¯ååå°çå¨å­ä½ç½®æ¯å¦å¯¹åº
+		    for(var i =0; i<shengJson.length ; i++){
+		        if(this.value == shengJson[i].name){
+		            //å è½½è¿ä¸ªçä»½æå¯¹åºçææå¸åºä¿¡æ¯
+		            shiJson = shengJson[i].city;
+		            var op02="";
+		
+		            $(shiJson).each(function(){
+		                op02 +="<option id='city' value='"+this.name+"'>"+this.name+"</option>"
+		            });
+		            //æåå»ºçoptionæ ç­¾æ·»å å°selectæ ç­¾éå»
+		            shi.append(op02);
+		
+		        }
+		    }
+		});
+		
+       //æ­£åå¤æ­
+        $(function () {
+    		//1.è·åinputæ ç­¾,ä¸ºinputæ ç­¾ç»å®ä¸ä¸ªå¤±å»ç¦ç¹äºä»¶
+            $("input[name='userName']").blur(function () {
+            
+                //2.è·åææ¬æ¡ä¸­çå¼
+                var userNameVal = $(this).val();
+
+                //3.æ ¡éªåç§°ä¸è½ä¸ºç©º
+                if(userNameVal=='') {
+                    $("#userNamemessage").html("<font color='red'>*ç¨æ·åä¸è½ä¸ºç©º</font>");
+                }else if(!flag1.test(userNameVal)){
+                    $("#userNamemessage").html("<font color='red'>*åªè½ä½¿ç¨è±æå­æ¯åæ°å­ï¼ä»¥å­æ¯å¼å¤´ï¼é¿åº¦ä¸º4å°15ä¸ªå­ç¬¦</font>");
+                }else if(true){
+                	$.ajax({
+                        type:'post',
+                        xhrFields: {
+                            withCredentials: true
+                        },
+                        crossDomain: true,
+                        url:'../UserNameServlet.do',
+                        data:{"userName":userNameVal}
+                        dataType:"json", //ååºåæ¥çæ°æ®ä¸ºjson
+                        success:function (response) {
+                            if (response.code == 1) { //ä¸º1ååå­éå¤äº
+                           	 $("#userNamemessage").text(response.text);    //å¨æ­¤é¡µé¢æ¾ç¤ºç»å½å¤±è´¥ä¿¡æ¯
+                            } else {
+                            	$("#userNamemessage").html(""); 
+                            	f1=true;
+                            }
+                        },
+                        error:function () {
+                            alert("ååºå¤±è´¥ï¼");
+                        }
+                    })
+                }
+               
+            });
+
+            $("input[name='Name']").blur(function () {
+                
+                //2.è·åææ¬æ¡ä¸­çå¼
+                var Name = $(this).val();
+
+                //3.æ ¡éªåç§°ä¸è½ä¸ºç©º
+                if(Name=='') {
+                    $("#Namemessage").html("<font color='red'>*çå®å§åä¸è½ä¸ºç©º</font>");
+                    
+                }else if(!flag2.test(Name)){
+                    $("#Namemessage").html("<font color='red'>*çå®å§ååªè½æ¯2-4é¿åº¦çä¸­æ</font>");
+                }else{
+                	$("#Namemessage").html("");  
+                	f2=true;
+                }
+               
+            });
+            
+            
+            
+            $("input[name='email']").blur(function () {
+                
+                //2.è·åææ¬æ¡ä¸­çå¼
+                var email = $(this).val();
+
+                //3.æ ¡éªåç§°ä¸è½ä¸ºç©º
+                if(email=='') {
+                    $("#emailmessage").html("<font color='red'>*é®ç®±ä¸è½ä¸ºç©º</font>");
+                }else if(!flag3.test(email)){
+                    $("#emailmessage").html("<font color='red'>*é®ç®±å°åä¸åæ³ï¼</font>");
+                }else if(true){
+                	$.ajax({
+                        type:'post',
+                        xhrFields: {
+                            withCredentials: true
+                        },
+                        crossDomain: true,
+                        url:'../EmailServlet.do',
+                        data:{"email":email}
+                        dataType:"json", //ååºåæ¥çæ°æ®ä¸ºjson
+                        success:function (response) {
+                            if (response.code == 1) { //ä¸º1ååå­éå¤äº
+                           	 $("#emailmessage").text(response.text);    //å¨æ­¤é¡µé¢æ¾ç¤ºç»å½å¤±è´¥ä¿¡æ¯
+                            } else {
+                            	$("#emailmessage").html(""); 
+                            	f1=true;
+                            }
+                        },
+                        error:function () {
+                            alert("ååºå¤±è´¥ï¼");
+                        }
+                    })
+                }
+               
+            });
+            
+			$("#shengfen1").blur(function () {
+				alert(111111111111);          
+                //2.è·åææ¬æ¡ä¸­çå¼
+                var shengfen = $(this).val();
+
+                //3.æ ¡éªåç§°ä¸è½ä¸ºç©º
+                if(shengfen=='') {
+                    $("#shengfenmessage").html("<font color='red'>*çä»½ä¸è½ä¸ºç©º</font>");
+                }else{
+                	$("#shengfenmessage").html("");
+                	f4=true;
+                }
+               
+            });
+          
+		
+			
+			
+            
+			$("input[name='password']").blur(function () {
+                
+                //2.è·åææ¬æ¡ä¸­çå¼
+                var password = $(this).val();
+
+                //3.æ ¡éªåç§°ä¸è½ä¸ºç©º
+                if(password=='') {
+                    $("#passwordmessage").html("<font color='red'>*å¯ç ä¸è½ä¸ºç©º</font>");
+                }else if(!flag4.test(password)){
+                    $("#passwordmessage").html("<font color='red'>*å¯ç é¿åº¦è³å°ä¸º4</font>");
+                }else{
+                	$("#passwordmessage").html("");  
+                	f6=true;
+                }
+               
+            });
+			
+			$("input[name='password2']").blur(function () {
+				 var password = $("input[name='password']").val();
+                //2.è·åææ¬æ¡ä¸­çå¼
+                var password2 = $(this).val();
+
+                //3.æ ¡éªåç§°ä¸è½ä¸ºç©º
+                if(password2!=password) {
+                	$("#password2message").html("<font color='red'>*ä¸¤æ¬¡å¯ç ä¸ä¸è´</font>");  
+                }else{
+                	$("#password2message").html("");  
+                	f7=true;
+                }
+               
+            });
+            
+			
+			 /* è¿ä¸å»changeæ¹æ³  åªè½ç¨æäº¤æ¶ç¹å»äºä»¶éªè¯
+			 	$("input[name='shengfen']").change(function () {
+				 var shengfen = $(this).val();
+				alert("sssssssffffffff"+shengfen);
+	            //3.æ ¡éªåç§°ä¸è½ä¸ºç©º
+	            if(shengfen==' ') {
+	                $("#shengfenmessage").html("<font color='red'>*åå¸ä¸è½ä¸ºç©º</font>");
+	            }else{
+	            	$("#shengfenmessage").html("");
+	            	f5=true;
+	            } 
+              
+           });  */
+
+        })
+       
+       
+       
+        function check(){
+			var form01 = document.getElementById("form01");
+			var shengfen1 = document.getElementById("shengfen").value;
+			var city1 = document.getElementById("city").value;
+			if(shengfen1==" "){
+				$("#shengfenmessage").html("<font color='red'>*çä»½ä¸è½ä¸ºç©º</font>");
+			}
+			if(city1==" "){
+				$("#citymessage").html("<font color='red'>*åå¸ä¸è½ä¸ºç©º</font>");
+			}
+			//éªè¯æäº¤
+			if(f1&&f2&&f3&&f6&&f7){
+				//alert("æ¨¡ææäº¤");
+				form01.submit();	
+			}else{
+				alert("å°æªå¡«åå®æ¯ï¼è¯·ç»§ç»­å¡«åï¼");
+			}
+		
+		}
+            
+    </script>
+</html>
