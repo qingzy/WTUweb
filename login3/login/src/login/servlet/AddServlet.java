@@ -39,9 +39,9 @@ public class AddServlet extends HttpServlet {
 		
 		if(rows >0){
 
-			response.getWriter().print(" <script>alert('添加学生信息成功'); location.href='login/register.html' </script>");
-		}else{
-			response.getWriter().print(" <script>alert('添加学生信息失败'); location.href='login/register.html' </script>");
+			反应。getWriter（）。打印（“ <script> alert（'添加学生信息成功'）; location.href ='login / register.jsp'</ script>”）；
+		}其他{
+			response.getWriter().print(" <script>alert('添加学生信息失败'); location.href='login/register.jsp' </script>");
 		}  
 
 	}
