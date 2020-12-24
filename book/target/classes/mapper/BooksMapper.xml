@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="zyq.mapper.BooksMapper">
+  <resultMap id="BaseResultMap" type="zyq.pojo.Books">
+    <id column="bid" jdbcType="INTEGER" property="bid" />
+    <result column="bname" jdbcType="VARCHAR" property="bname" />
+    <result column="bauthor" jdbcType="VARCHAR" property="bauthor" />
+    <result column="bnum" jdbcType="INTEGER" property="bnum" />
+    <result column="bcbs" jdbcType="VARCHAR" property="bcbs" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    bid, bname, bauthor, bnum, bcbs
+  </sql>
+  <select id="selectByExample" parameterType="zyq.pojo.BooksExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from books
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from books
+    where bid = #{bid,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from books
+    where bid = #{bid,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByExample" parameterType="zyq.pojo.BooksExample">
+    delete from books
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="zyq.pojo.Books">
+    insert into books (bid, bname, bauthor, 
+      bnum, bcbs)
+    values (#{bid,jdbcType=INTEGER}, #{bname,jdbcType=VARCHAR}, #{bauthor,jdbcType=VARCHAR}, 
+      #{bnum,jdbcType=INTEGER}, #{bcbs,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="zyq.pojo.Books">
+    insert into books
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="bid != null">
+        bid,
+      </if>
+      <if test="bname != null">
+        bname,
+      </if>
+      <if test="bauthor != null">
+        bauthor,
+      </if>
+      <if test="bnum != null">
+        bnum,
+      </if>
+      <if test="bcbs != null">
+        bcbs,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="bid != null">
+        #{bid,jdbcType=INTEGER},
+      </if>
+      <if test="bname != null">
+        #{bname,jdbcType=VARCHAR},
+      </if>
+      <if test="bauthor != null">
+        #{bauthor,jdbcType=VARCHAR},
+      </if>
+      <if test="bnum != null">
+        #{bnum,jdbcType=INTEGER},
+      </if>
+      <if test="bcbs != null">
+        #{bcbs,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="zyq.pojo.BooksExample" resultType="java.lang.Long">
+    select count(*) from books
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update books
+    <set>
+      <if test="record.bid != null">
+        bid = #{record.bid,jdbcType=INTEGER},
+      </if>
+      <if test="record.bname != null">
+        bname = #{record.bname,jdbcType=VARCHAR},
+      </if>
+      <if test="record.bauthor != null">
+        bauthor = #{record.bauthor,jdbcType=VARCHAR},
+      </if>
+      <if test="record.bnum != null">
+        bnum = #{record.bnum,jdbcType=INTEGER},
+      </if>
+      <if test="record.bcbs != null">
+        bcbs = #{record.bcbs,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update books
+    set bid = #{record.bid,jdbcType=INTEGER},
+      bname = #{record.bname,jdbcType=VARCHAR},
+      bauthor = #{record.bauthor,jdbcType=VARCHAR},
+      bnum = #{record.bnum,jdbcType=INTEGER},
+      bcbs = #{record.bcbs,jdbcType=VARCHAR}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="zyq.pojo.Books">
+    update books
+    <set>
+      <if test="bname != null">
+        bname = #{bname,jdbcType=VARCHAR},
+      </if>
+      <if test="bauthor != null">
+        bauthor = #{bauthor,jdbcType=VARCHAR},
+      </if>
+      <if test="bnum != null">
+        bnum = #{bnum,jdbcType=INTEGER},
+      </if>
+      <if test="bcbs != null">
+        bcbs = #{bcbs,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where bid = #{bid,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="zyq.pojo.Books">
+    update books
+    set bname = #{bname,jdbcType=VARCHAR},
+      bauthor = #{bauthor,jdbcType=VARCHAR},
+      bnum = #{bnum,jdbcType=INTEGER},
+      bcbs = #{bcbs,jdbcType=VARCHAR}
+    where bid = #{bid,jdbcType=INTEGER}
+  </update>
+
+  <select id="selectBooks" parameterType="zyq.pojo.BooksExample" resultMap="BaseResultMap">
+    select * from books
+  </select>
+
+
+  <update id="updateBookNum" parameterType="map">
+    update books
+    set
+    bnum = #{bnum,jdbcType=INTEGER}
+    where bid = #{bid,jdbcType=INTEGER}
+  </update>
+
+  <update id="huanshu" parameterType="map">
+    update books
+    set bnum=bnum+1
+    where bid = #{bid,jdbcType=INTEGER}
+  </update>
+
+  <select id="selectBookByTjlike" parameterType="map" resultMap="BaseResultMap">
+    select * from books
+    <where>
+    <if test="bname != null">
+      bname LIKE '%${bname}%'
+    </if>
+    <if test="bauthor != null">
+      AND
+      bauthor LIKE '%${bauthor}%'
+    </if>
+    </where>
+  </select>
+
+  <!--<select id="selectBooksByPage" parameterType="java.util.Map" resultType="zyq.pojo.Books">
+    select * from books
+    <where>
+      <if test="bname != null and bname != ' '">
+        bname LIKE '%${bname}%'
+      </if>
+      <if test="bauthor != null and bauthor != ' '">
+        AND
+        bauthor LIKE '%${bauthor}%'
+      </if>
+    </where>
+  </select>-->
+
+  <select id="selectBookByTjlikePage" parameterType="map" resultMap="BaseResultMap">
+    select
+    *
+    from books
+    <where>
+      <if test="bname != null">
+        bname LIKE '%${bname}%'
+      </if>
+      <if test="bauthor != null">
+        AND
+        bauthor LIKE '%${bauthor}%'
+      </if>
+    </where>
+  </select>
+
+</mapper>

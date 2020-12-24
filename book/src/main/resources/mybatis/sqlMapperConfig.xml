@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--配置信息-->
+    <!--设置sql打印语句-->
+    <settings>
+        <setting name="logImpl" value="STDOUT_LOGGING" />
+    </settings>
+    <!--设置类型别名库，type表示类的类地址，alias表示别名-->
+    <typeAliases>
+        <!--以包名的的形式进行扫描别名，别名叫实体类的类名-->
+        <package name="zyq.pojo"/>
+    </typeAliases>
+
+    <!--分页插件-->
+    <plugins>
+    <plugin interceptor="com.github.pagehelper.PageInterceptor">
+        <property name="reasonable" value="true"></property>
+    </plugin>
+    </plugins>
+
+</configuration>

@@ -1,0 +1,44688 @@
+/******************************************************************************************��ҳ**************************************************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+
+
+
+
+
+
+    text-align: center;
+
+
+
+
+
+
+    font-family: "????", arial;
+
+
+
+
+
+
+    margin: 0;
+
+
+
+
+
+
+    padding: 0;
+
+
+
+
+
+
+    background: #FFF;
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    color: #000;
+
+
+
+
+
+
+    overflow-x: scroll;
+
+
+
+
+
+
+    overflow: -Scroll;
+
+
+
+
+
+
+    overflow-x: hidden;
+
+
+
+
+
+
+    overflow-y: hidden
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+div,
+
+
+
+
+
+
+form,
+
+
+
+
+
+
+img,
+
+
+
+
+
+
+ul,
+
+
+
+
+
+
+ol,
+
+
+
+
+
+
+li,
+
+
+
+
+
+
+dl,
+
+
+
+
+
+
+dt,
+
+
+
+
+
+
+dd {
+
+
+
+
+
+
+    margin: 0;
+
+
+
+
+
+
+    padding: 0;
+
+
+
+
+
+
+    border: 0;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+li {
+
+
+
+
+
+
+    list-style-type: none;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+img {
+
+
+
+
+
+
+    vertical-align: top;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+html {
+
+
+
+
+
+
+    overflow-x: hidden
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.elephant {
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+    height: 100%;
+
+
+
+
+
+
+    margin: 0 auto;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pbody {
+
+
+
+
+
+
+    margin: 0 auto;
+
+
+
+
+
+
+    width: 1200px;
+
+
+
+
+
+
+/*    padding-top: 10px;
+
+
+
+
+
+
+    padding-bottom: 10px;*/
+
+
+
+
+
+
+    display: inline-block;
+
+
+
+
+
+
+    /* overflow: hidden; */
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#begi {
+
+
+
+
+
+
+    border-bottom: 2px #7ec14e solid;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pbodyful {
+
+
+
+
+
+
+    margin: 0 auto;
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+    padding-bottom: 10px;
+
+
+
+
+
+
+    display: inline-block;
+
+
+
+
+
+
+    min-width: 1200px;
+
+
+
+
+
+
+    /* overflow: hidden; */
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bg2 {
+
+
+
+
+
+
+    background-color: #f8f8f8;
+
+
+
+
+
+
+    /*padding-bottom:100px;*/
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pbody-left {
+
+
+
+
+
+
+    width: 280px;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pbody-right {
+
+
+
+
+
+
+    width: 876px;
+
+
+
+
+
+
+    float: right;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1,
+
+
+
+
+
+
+h2,
+
+
+
+
+
+
+h3,
+
+
+
+
+
+
+h4,
+
+
+
+
+
+
+h5,
+
+
+
+
+
+
+h6 {
+
+
+
+
+
+
+    margin: 0;
+
+
+
+
+
+
+    padding: 0;
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    font-weight: normal;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header {
+
+
+
+
+
+
+    height: 150px;
+
+
+
+
+
+
+    width: 1200px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header_1 {
+
+
+
+
+
+
+    height: 70px;
+
+
+
+
+
+
+    width: 1200px;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header_2 {
+
+
+
+
+
+
+    height: 80px;
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+    font-size: 18px;
+
+
+
+
+
+
+    line-height: 70px;
+
+
+
+
+
+
+    padding-left: 100px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header_2 a.navitem {
+
+
+
+
+
+
+    padding-bottom: 10px;
+
+
+
+
+
+
+    padding-left: 5px;
+
+
+
+
+
+
+    padding-right: 5px;
+
+
+
+
+
+
+    color: #888;
+
+
+
+
+
+
+    text-decoration: none;
+
+
+
+
+
+
+    font-size: 18px;
+
+
+
+
+
+
+    line-height: 70px;
+
+
+
+
+
+
+    margin-left: 50px;
+
+
+
+
+
+
+    margin-right: 50px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header_2 a.navitem.active,
+
+
+
+
+
+
+.header_2 a.navitem:hover {
+
+
+
+
+
+
+    color: #7ec14e;
+
+
+
+
+
+
+    text-decoration: none;
+
+
+
+
+
+
+    border-bottom: 2px #7ec14e solid;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header_2 .login_info {
+
+
+
+
+
+
+    width: 150px;
+
+
+
+
+
+
+    height: 46px;
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    padding-left: 10px;
+
+
+
+
+
+
+    padding-right: 10px;
+
+
+
+
+
+
+    padding-bottom: 2px;
+
+
+
+
+
+
+    padding-top: 2px;
+
+
+
+
+
+
+    color: #888;
+
+
+
+
+
+
+    float: right;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header_2 .login_btn,
+
+
+
+
+
+
+.header_2 .login_btn:hover {
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    color: #888;
+
+
+
+
+
+
+    text-decoration: none;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    border: 1px gray solid;
+
+
+
+
+
+
+    line-height: 24px;
+
+
+
+
+
+
+    padding-left: 12px;
+
+
+
+
+
+
+    padding-right: 12px;
+
+
+
+
+
+
+    margin-top: 21px;
+
+
+
+
+
+
+    border-radius: 8px;
+
+
+
+
+
+
+    behavior: url(../../PIE.htc);
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.login_box {
+
+
+
+
+
+
+    display: none;
+
+
+
+
+
+
+    position: absolute;
+
+
+
+
+
+
+    width: 160px;
+
+
+
+
+
+
+    padding-left: 52px;
+
+
+
+
+
+
+    float: right;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    overflow: hidden;
+
+
+
+
+
+
+    transition: display 400ms;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header_2 .login_info:hover .login_box {
+
+
+
+
+
+
+    display: block;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.login_box_left {
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    width: 60px;
+
+
+
+
+
+
+    height: 60px;
+
+
+
+
+
+
+    vertical-align: middle;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.login_box_right {
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    vertical-align: middle;
+
+
+
+
+
+
+    line-height: 30px;
+
+
+
+
+
+
+    width: 80px;
+
+
+
+
+
+
+    margin-left: 20px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.luse {
+
+
+
+
+
+
+    color: #b8e796;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#line {
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    width: 50px;
+
+
+
+
+
+
+    height: 40px;
+
+
+
+
+
+
+    border: 1px gray solid;
+
+
+
+
+
+
+    border-radius: 20px;
+
+
+
+
+
+
+    -moz-border-radius: 20px;
+
+
+
+
+
+
+    -webkit-border-radius: 20px;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    top: 0px;
+
+
+
+
+
+
+    padding-bottom: -20px;
+
+
+
+
+
+
+    behavior: url(../../PIE.htc);
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#line_1 {
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    width: 60px;
+
+
+
+
+
+
+    height: 80px;
+
+
+
+
+
+
+    border-bottom: 1px #abc995 solid;
+
+
+
+
+
+
+    padding-bottom: 5px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#line_2 {
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    width: 60px;
+
+
+
+
+
+
+    height: 80px;
+
+
+
+
+
+
+    border-bottom: 1px #abc995 solid;
+
+
+
+
+
+
+    padding-bottom: 5px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ti_2 {
+
+
+
+
+
+
+    margin-left: 34px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ti_3 {
+
+
+
+
+
+
+    margin-left: 34px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.calendar-title a,
+
+
+
+
+
+
+.calendar-title a:hover {
+
+
+
+
+
+
+    color: #888;
+
+
+
+
+
+
+    text-decoration: none;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cur-page a{
+
+
+
+
+
+
+    color: #7ec14e;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#gotoTop {
+
+
+
+
+
+
+    position: fixed;
+
+
+
+
+
+
+    right: 20px;
+
+
+
+
+
+
+    bottom: 100px;
+
+
+
+
+
+
+    cursor: pointer;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.banner {
+
+
+
+
+
+
+    height: 400px;
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+    min-width: 1200px;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.banner .btn_left {
+
+
+
+
+
+
+    background: url(../../images/l-btn.png) no-repeat;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.banner .btn_right {
+
+
+
+
+
+
+    background: url(../../images/r-btn.png) no-repeat;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.banner-static {
+
+
+
+
+
+
+    height: 400px;
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+    min-width: 1200px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.banner-static img {
+
+
+
+
+
+
+    height: 400px;
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+    min-width: 1200px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.banner_t {
+
+
+
+
+
+
+    width: 1200px;
+
+
+
+
+
+
+    height: 400px;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    margin: 0 auto;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.banner_t ul {
+
+
+
+
+
+
+    margin-top: 80px;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.banner_t li {
+
+
+
+
+
+
+    margin: 10px;
+
+
+
+
+
+
+    padding: 10px;
+
+
+
+
+
+
+    height: 30px;
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    line-height: 60px;
+
+
+
+
+
+
+    color: gray;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.banner_t .banner_btn {
+
+
+
+
+
+
+    margin-top: 40px;
+
+
+
+
+
+
+    height: 40px;
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    color: gray;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.banner_nei {
+
+
+
+
+
+
+    width: 1200px;
+
+
+
+
+
+
+    height: 400px;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    margin: 0 auto;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.banner_nei li {
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    margin-top: 60px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.banner_nei li:not(:first-child) {
+
+
+
+
+
+
+    margin-left: 22px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.banner_nei li.line {
+
+
+
+
+
+
+    margin-left: 30px;
+
+
+
+
+
+
+    margin-right: 5px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.banner.bgimg {
+
+
+
+
+
+
+    background-image: url(../../images/information/banner.jpg);
+
+
+
+
+
+
+    background-repeat: no-repeat;
+
+
+
+
+
+
+    background-size: 100% 100%;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.banner.bgimg .tu img {
+
+
+
+
+
+
+    width: 430px;
+
+
+
+
+
+
+    height: 260px;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    top: 55px;
+
+
+
+
+
+
+    margin: 0 auto;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.banner .tu {
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+    min-width: 1200px;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    margin-top: 10px;
+
+
+
+
+
+
+    margin-left: 8px;
+
+
+
+
+
+
+    height: 100px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.banner .infor {
+
+
+
+
+
+
+    height: 400px;
+
+
+
+
+
+
+    position: absolute;
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.banner .infor .head {
+
+
+
+
+
+
+    margin-top: 80px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.banner .infor .head_1 {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    top: -20px;
+
+
+
+
+
+
+    left: 80px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.banner .infor .name {
+
+
+
+
+
+
+    font-size: 30px;
+
+
+
+
+
+
+    color: #ffffff;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.banner .infor .english {
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    color: #ffffff;
+
+
+
+
+
+
+    margin-top: 10px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.banner .infor .you {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    left: 60px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.banner .infor .niu {
+
+
+
+
+
+
+    margin-top: 10px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.breadcrumb {
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    padding-top: 10px;
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    color: #888;
+
+
+
+
+
+
+    margin-bottom: 45px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.left-tools {
+
+
+
+
+
+
+    position: fixed;
+
+
+
+
+
+
+    left: 20px;
+
+
+
+
+
+
+    bottom: 90px;
+
+
+
+
+
+
+    /* top: 55px; */
+
+
+
+
+
+
+    /* bottom: 380px; */
+
+
+
+
+
+
+    z-index: 200;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.left-tools>li {
+
+
+
+
+
+
+    width: 60px;
+
+
+
+
+
+
+    height: 55px;
+
+
+
+
+
+
+    margin-top: 20px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.left-tools>li:hover .chuang {
+
+
+
+
+
+
+    display: block;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.chaxun_right {
+
+
+
+
+
+
+    width: 1200px;
+
+
+
+
+
+
+    ;
+
+
+
+
+
+
+    height: 528px;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    margin-top: 80px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.chuang {
+
+
+
+
+
+
+    box-shadow: rgb(240, 237, 237) 0px 5px 20px;
+
+
+
+
+
+
+    width: 310px;
+
+
+
+
+
+
+    height: 300px;
+
+
+
+
+
+
+    position: absolute;
+
+
+
+
+
+
+    top: 40px;
+
+
+
+
+
+
+    left: 110px;
+
+
+
+
+
+
+    border-radius: 15px;
+
+
+
+
+
+
+    padding-top: 10px;
+
+
+
+
+
+
+    background-color: rgb(255, 255, 255);
+
+
+
+
+
+
+    z-index: 200;
+
+
+
+
+
+
+    display: none;
+
+
+
+
+
+
+    behavior: url(../../PIE.htc);
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fuchuang {
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    color: black;
+
+
+
+
+
+
+    width: 250px;
+
+
+
+
+
+
+    height: 200px;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    font-family: "??????";
+
+
+
+
+
+
+    padding-top: 20px;
+
+
+
+
+
+
+    line-height: 25px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shijianq {
+
+
+
+
+
+    font-size: 14px;
+    color: black;
+    text-align: left;
+    margin-top: 10px;
+    text-align: left;
+    padding-left: 20px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.yinying {
+
+
+
+
+
+
+    box-shadow: 0 5px 20px #f0eded;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mainsearch {
+
+
+
+
+
+
+    width: 884px;
+
+
+
+
+
+
+    height: 63px;
+
+
+
+
+
+
+    margin: 0 auto;
+
+
+
+
+
+
+    border-radius: 40px;
+
+
+
+
+
+
+    background-color: #bee0a6;
+
+
+
+
+
+
+    position: relative; 
+
+
+
+
+
+
+    top: 0px;
+
+
+
+
+
+
+    behavior: url(../../PIE.htc);
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mainsearch .searchtxt {
+
+
+
+
+
+
+    height: 63px;
+
+
+
+
+
+
+    width: 500px;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    color: #ffffff;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    left: 30px;
+
+
+
+
+
+
+    top: 0px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mainsearch .searchtxt .inpu {
+
+
+
+
+
+
+    border: none;
+
+
+
+
+
+
+    width: 500px;
+
+
+
+
+
+
+    height: 58px;
+
+
+
+
+
+
+    line-height: 60px;
+
+
+
+
+
+
+    margin-top: 3px;
+
+
+
+
+
+
+    text-indent: 10px;
+
+
+
+
+
+
+    background-color: #bee0a6;
+
+
+
+
+
+
+    font-size: 18px;
+
+
+
+
+
+
+    color: #ffffff;
+
+
+
+
+
+
+    border: 1px #bee0a6 solid;
+
+
+
+
+
+
+    appearance: none;
+
+
+
+
+
+
+    -moz-appearance: none;
+
+
+
+
+
+
+    /* Firefox */
+
+
+
+
+
+
+    -webkit-appearance: none;
+
+
+
+
+
+
+    /* Safari and Chrome */
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mainsearch .searchtxt .inpu::-webkit-input-placeholder {
+
+
+
+
+
+
+    color: #ffffff;
+
+
+
+
+
+
+    opacity: 0.9;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mainsearch .searchtxt .inpu:focus {
+
+
+
+
+
+
+    outline: none;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mainsearch .searchbtn {
+
+
+
+
+
+
+    height: 60px;
+
+
+
+
+
+
+    line-height: 60px;
+
+
+
+
+
+
+    width: 100px;
+
+
+
+
+
+
+    float: right;
+
+
+
+
+
+
+    position: absolute;
+
+
+
+
+
+
+    right: 0px;
+
+
+
+
+
+
+    top: 0px;
+
+
+
+
+
+
+    left: 800px;
+
+
+
+
+
+
+    padding-top: 15px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mainsearch .select-down {
+
+
+
+
+
+
+    width: 0;
+
+
+
+
+
+
+    height: 0;
+
+
+
+
+
+
+    border-left: 10px solid transparent;
+
+
+
+
+
+
+    border-right: 10px solid transparent;
+
+
+
+
+
+
+    border-top: 10px solid white;
+
+
+
+
+
+
+    position: absolute;
+
+
+
+
+
+
+    top: 28px;
+
+
+
+
+
+
+    left: 140px;
+
+
+
+
+
+
+    margin-right: 20px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul.toolbar {
+
+
+
+
+
+
+    height: 235px;
+
+
+
+
+
+
+    list-style: none;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tubiao {
+
+
+
+
+
+
+    width: 80px;
+
+
+
+
+
+
+    height: 80px;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    margin-top: 50px;
+
+
+    margin-left: 35px;
+    margin-right: 35px;
+
+
+
+   
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tubiao:hover {
+
+
+
+
+
+
+    transform: scale(1.1);
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul.servicebar {
+
+
+
+
+
+
+    height: 600px;
+
+
+
+
+
+
+    list-style: none;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tubiao2 {
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    margin-top: 50px;
+
+
+
+
+
+
+    width: 180px;
+
+
+
+
+
+
+    height: 180px;
+
+
+
+
+
+
+    padding: 20px;
+
+
+
+
+
+
+    margin-right: 20px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tubiao2 p {
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    line-height: 34px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tubiao2.onlyimg {
+
+
+
+
+
+
+    width: 220px;
+
+
+
+
+
+
+    height: 220px;
+
+
+
+
+
+
+    padding: 0px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tubiao2 a,
+
+
+
+
+
+
+.tubiao2 a:hover {
+
+
+
+
+
+
+    text-decoration: none;
+
+
+
+
+
+
+    color: #ffffff;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tubiao2:hover .ico {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    animation: myfirsts 2s;
+
+
+
+
+
+
+    -moz-animation: myfirsts 2s;
+
+
+
+
+
+
+    /* Firefox */
+
+
+
+
+
+
+    -webkit-animation: myfirsts 2s;
+
+
+
+
+
+
+    /* Safari and Chrome */
+
+
+
+
+
+
+    -o-animation: myfirsts 2s;
+
+
+
+
+
+
+    /* Opera */
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tubiao2 h1 {
+
+
+
+
+
+
+    margin-top: 10px;
+
+
+
+
+
+
+    font-size: 18px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.left-1 {
+
+
+
+
+
+
+    width: 45%;
+
+
+
+
+
+
+    /* height: 264px; */
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    margin-top: 20px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.left-2 {
+
+
+
+
+
+
+    width: 45%;
+
+
+
+
+
+
+    height: 264px;
+
+
+
+
+
+    float: right;
+
+
+
+
+
+
+    margin-top: 20px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.left-1.margin-left,
+
+
+
+
+
+
+.left-2.margin-left {
+
+
+
+
+
+
+    /*margin-left: 34px;*/
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.left40 {
+
+
+
+
+
+
+    width: 40%;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.left50 {
+
+
+
+
+
+
+    width: 50%;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.left60 {
+
+
+
+
+
+
+    width: 60%;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.right40 {
+
+
+
+
+
+
+    width: 40%;
+
+
+
+
+
+
+    float: right;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.right45 {
+
+
+
+
+
+
+    width: 45%;
+
+
+
+
+
+
+    float: right;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.right50 {
+
+
+
+
+
+
+    width: 50%;
+
+
+
+
+
+
+    float: right;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.right60 {
+
+
+
+
+
+
+    width: 60%;
+
+
+
+
+
+
+    float: right;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.infomationbar {
+
+
+
+
+
+
+    height: 420px;
+
+
+
+
+
+
+    padding-top: 30px;
+
+
+
+
+
+
+    padding-bottom: 20px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.infomationbar .left40 img {
+
+
+
+
+
+
+    /* max-width: 580px;
+
+
+
+
+
+
+    max-height: 400px; */
+
+
+
+
+
+
+    width: 580px;
+
+
+
+
+
+
+    height: 400px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ul-tab {
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ul-tab .nave {
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+    height: 36px;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    background-color: #f7f7f7;
+
+
+
+
+
+
+    border-bottom: 1px #ececec solid;
+
+
+
+
+
+
+    padding-top: 10px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ul-tab .nave>span {
+
+
+
+
+
+
+    cursor: pointer;
+
+
+
+
+
+
+    width: 100px;
+
+
+
+
+
+
+    height: 50px;
+
+
+
+
+
+
+    font-size: 18px;
+
+
+
+
+
+
+    font-family: '΢���ź�';
+
+
+
+
+
+
+    margin-left: 20px;
+
+
+
+
+
+
+    margin-top: 20px;
+
+
+
+
+
+
+    padding-bottom: 10px;
+
+
+
+
+
+
+    color: #282828;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ul-tab .nave>span:hover,
+
+
+
+
+
+
+.ul-tab .nave>span.active {
+
+
+
+
+
+
+    border-bottom: 3px #77b3dd solid;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ul-tab .nave>span.more {
+
+
+
+
+
+
+    width: 80px;
+
+
+
+
+
+
+    height: 50px;
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    font-family: '΢���ź�';
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    bottom: 6px;
+
+
+
+
+
+
+    right: 15px;
+
+
+
+
+
+
+    float: right;
+
+
+
+
+
+
+    text-align: right;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ul-tab .nave>span.more:hover {
+
+
+
+
+
+
+    border-bottom: none;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hidden {
+
+
+
+
+
+
+    display: none;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.topicbar {
+
+
+
+
+
+
+    height: 320px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.topicbar li {
+
+
+
+
+
+
+    width: 300px;
+
+
+
+
+
+
+    height: 380px;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    cursor: pointer;
+
+    
+
+    
+
+    
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.topicbar li:hover {
+
+
+
+
+
+
+    transform: scale(1.01);
+
+
+
+
+
+
+    box-shadow: 0 5px 20px #f0eded;
+
+
+
+
+
+
+    border-radius: 5px;
+
+
+
+
+
+
+    background-color: #fcf9f9;
+
+
+
+
+
+
+    behavior: url(../../PIE.htc);
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.topicbar li img {
+
+
+
+
+
+
+    margin: 10px;
+
+
+
+
+
+
+    width: 280px;
+
+
+
+
+
+
+    height: 250px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.topicbar li h1 {
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    color: #2d2d2d;
+
+
+
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+    width: 280px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.topicbar li h1 a {
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    color: #2d2d2d;
+
+
+
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.topicbar li p {
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    color: #4b4b4b;
+
+
+
+
+
+
+    line-height: 25px;
+
+
+
+
+
+
+    margin-top: 10px;
+
+
+
+
+
+
+    text-indent: 10px;
+
+
+
+
+
+
+    width: 290px;
+    max-height:74px;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp:2;
+    -webkit-box-orient: vertical;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.outlinkbar {
+
+
+
+
+
+
+    height: 154px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.outlinkbar li {
+
+
+
+
+
+
+    height: 154px;
+
+
+
+
+
+
+    /*width: 200px;*/
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    margin-top: 18px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.outlinkbar li:not(:first-child) {
+
+
+
+
+
+
+    margin-left: 125px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.llrs {
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+    height: 57px;
+
+
+
+
+
+
+    line-height: 57px;
+
+
+
+
+
+
+    color: gray;
+
+
+
+
+
+
+    border-top: 1px #7ec14e solid;
+
+
+
+
+
+
+    border-width: medium;
+
+
+
+
+
+
+    margin-top: 40px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.llrsed {
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+    height: 57px;
+
+
+
+
+
+
+    line-height: 57px;
+
+
+
+
+
+
+    color: gray;
+
+
+
+
+
+
+    border-top: 1px #7ec14e solid;
+
+
+
+
+
+
+    border-width: medium;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.llrs span {
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    color: #7ec14e;
+
+
+
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hr2 {
+
+
+
+
+
+
+    background: linear-gradient(to left, #eaf7f8, #049cb0, #eaf7f8);
+
+
+
+
+
+
+    height: 1px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bottom-info {
+
+
+
+
+
+
+    height: 154px;
+
+
+
+
+
+
+    margin-top: 10px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bottom-info li {
+
+
+
+
+
+
+    height: 130px;
+
+
+
+
+
+
+    width: 390px;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bottom-info li:not(:first-child) {
+
+
+
+
+
+
+    margin-left: 15px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bottom-info li h1 {
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    color: gray;
+
+
+
+
+
+
+    line-height: 30px;
+
+
+
+
+
+
+    margin-bottom: 5px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bottom-info li h1 a {
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    color: gray;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bottom-info li h1 img {
+
+
+
+
+
+
+    width: 20px;
+
+
+
+
+
+
+    height: 20px;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    left: 0px;
+
+
+
+
+
+
+    top: 4px;
+
+
+
+
+
+
+    margin-right: 8px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bottom-info li p {
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    color: gray;
+
+
+
+
+
+
+    line-height:22px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pfoot p:first-child{
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+    height: 40px;
+
+
+
+
+
+
+    background-color: #737373;
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    color: white;
+
+
+
+
+
+
+    line-height:64px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+.pfoot p:last-child{
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+    height:30px;
+
+
+
+
+
+
+    background-color: #737373;
+
+
+
+
+
+
+    color: white;
+
+
+
+
+
+
+    line-height:28px;
+
+
+
+
+
+
+/*    padding-bottom: 10px;*/
+
+
+
+
+
+
+}
+
+
+
+
+
+
+.pfoot p:last-child a{
+
+
+
+
+
+
+   font-size: 16px;
+
+
+
+
+
+
+   text-decoration: none;
+
+
+
+
+
+
+   color:#FFFFFF;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+.pfoot p:last-child a img {
+
+
+
+
+
+
+	margin-top:3px;
+
+
+
+
+
+
+	margin-right: 5px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rili {
+
+
+
+
+
+
+    margin-bottom: 30px;
+
+
+
+
+
+
+    margin-top: 30px;
+
+
+
+
+
+
+    background-image: url(../../images/flower.png);
+
+
+
+
+
+
+    height: 540px;
+
+
+
+
+
+
+    background-attachment: fixed;
+
+
+
+
+
+
+    background-repeat: no-repeat;
+
+
+
+
+
+
+    background-position: center;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rili_second {
+
+
+
+
+
+
+    width: 1200px;
+
+
+
+
+
+
+    height: 484px;
+
+
+
+
+
+
+    /*background-image:url(../../images/bj.jpg);*/
+
+
+
+
+
+
+    padding-bottom: 10px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rili_second_left {
+
+
+
+
+
+
+    width: 520px;
+
+
+
+
+
+
+    height: 472px;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    box-shadow: 0 5px 20px #f0eded;
+
+
+
+
+
+
+    background-color: #fafafa;
+
+
+
+
+
+
+    border-radius: 5px;
+
+
+
+
+
+
+    margin-top: 15px;
+
+
+
+
+
+
+    margin-bottom: 34px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rili_second_right {
+
+
+
+
+
+
+    width: 600px;
+
+
+
+
+
+
+    height: 475px;
+
+
+
+
+
+
+    float: right;
+
+
+
+
+
+
+    margin-left: 70px;
+
+
+
+
+
+
+    margin-top: 15px;
+
+
+
+
+
+
+    margin-bottom: 34px;
+
+
+
+
+
+
+    border-radius: 5px;
+
+
+
+
+
+
+    opacity: 0.85;
+
+
+
+
+
+
+    background-color: #ffffff;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.find-item {
+
+
+
+
+
+
+    list-style: none;
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    padding-left: 100px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.find-item li {
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    color: #808080;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    line-height: 40px;
+
+
+
+
+
+
+    min-width: 92px;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    cursor: pointer;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.find-item li:hover,
+
+
+
+
+
+
+.find-item li.active {
+
+
+
+
+
+
+    color: #7ec24d;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.find-item li.label-h {
+
+
+
+
+
+
+    font-size: 18px;
+
+
+
+
+
+
+    color: #4c4c4c;
+
+
+
+
+
+
+    margin-left: -100px;
+
+
+
+
+
+
+    margin-right: 0px;
+
+
+
+
+
+
+    cursor: inherit;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.find-item li.label-h:hover {
+
+
+
+
+
+
+    color: #4c4c4c;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.find-item li select {
+
+
+
+
+
+
+    appearance: none;
+
+
+
+
+
+
+    -moz-appearance: none;
+
+
+
+
+
+
+    -webkit-appearance: none;
+
+
+
+
+
+
+    height: 30px;
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    border: 1px solid #ececec;
+
+
+
+
+
+
+    border-radius: 0px;
+
+
+
+
+
+
+    outline: none;
+
+
+
+
+
+
+    background: url("http://ourjs.github.io/static/2015/arrow.png") no-repeat scroll right center transparent;
+
+
+
+
+
+
+    padding-left: 8px;
+
+
+
+
+
+
+    padding-right: 14px;
+
+
+
+
+
+
+    color: #888;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.find-item li input {
+
+
+
+
+
+
+    width: 80px;
+
+
+
+
+
+
+    height: 20px;
+
+
+
+
+
+
+    border: 1px gray solid;
+
+
+
+
+
+
+    outline: none;
+
+
+
+
+
+
+    padding-left: 2px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.search-box {
+
+
+
+
+
+
+    width: 278px;
+
+
+
+
+
+
+    height: 40px;
+
+
+
+
+
+
+    border: 1px gray solid;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    border-radius: 20px;
+
+
+
+
+
+
+    line-height: 40px;
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    color: #cccccc;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.search-box input {
+
+
+
+
+
+
+    width: 240px;
+
+
+
+
+
+
+    height: 40px;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    border-radius: 20px;
+
+
+
+
+
+
+    line-height: 40px;
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    color: #cccccc;
+
+
+
+
+
+
+    outline: none;
+
+
+
+
+
+
+    border: none;
+
+
+
+
+
+
+    padding-left: 10px;
+
+
+
+
+
+
+    opacity: 0.7;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.search-box .sou {
+
+
+
+
+
+
+    float: right;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    top: 10px;
+
+
+
+
+
+
+    right: 15px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.select-r {
+
+
+
+
+
+
+    width: 124px;
+
+
+
+
+
+
+    height: 40px;
+
+
+
+
+
+
+    float: right;
+
+
+
+
+
+
+    border-radius: 5px;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    right: 4px;
+
+
+
+
+
+
+    border: 1px gray solid;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.select-r span {
+
+
+
+
+
+
+    width: 124px;
+
+
+
+
+
+
+    height: 40px;
+
+
+
+
+
+
+    float: right;
+
+
+
+
+
+
+    border-radius: 5px;
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    color: #656565;
+
+
+
+
+
+
+    line-height: 40px;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    right: 10px;
+
+
+
+
+
+
+    appearance: none;
+
+
+
+
+
+
+    -moz-appearance: none;
+
+
+
+
+
+
+    -webkit-appearance: none;
+
+
+
+
+
+
+    outline: none;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.select-r .select-down {
+
+
+
+
+
+
+    width: 0;
+
+
+
+
+
+
+    height: 0;
+
+
+
+
+
+
+    border-left: 6px solid transparent;
+
+
+
+
+
+
+    border-right: 6px solid transparent;
+
+
+
+
+
+
+    border-top: 8px solid #888;
+
+
+
+
+
+
+    position: absolute;
+
+
+
+
+
+
+    top: 16px;
+
+
+
+
+
+
+    right: 8px;
+
+
+
+
+
+
+    margin-right: 10px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.select-r .select-list {
+
+
+
+
+
+
+    display: none;
+
+
+
+
+
+
+    width: 124px;
+
+
+
+
+
+
+    background-color: white;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    top: 2px;
+
+
+
+
+
+
+    left: 0px;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    z-index: 300;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.select-r:hover .select-list {
+
+
+
+
+
+
+    display: block;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.select-r .select-list li {
+
+
+
+
+
+
+    width: 124px;
+
+
+
+
+
+
+    height: 50px;
+
+
+
+
+
+
+    line-height: 50px;
+
+
+
+
+
+
+    color: #7ec14e;
+
+
+
+
+
+
+    border-bottom: 1px gray solid;
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    cursor: pointer;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shuji-row {
+
+
+
+
+
+
+    list-style: none;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shuji-row li {
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    width: 200px;
+
+
+
+
+
+
+    margin-left: 0px;
+
+
+
+
+
+
+    margin-right: 40px;
+
+
+
+
+
+
+    margin-top: 20px;
+
+
+
+
+
+
+    margin-bottom: 20px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shuji-row li .view {
+
+
+
+
+
+
+    width: 200px;
+
+
+
+
+
+
+    height: 240px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shuji-row li h1 {
+
+
+
+
+
+
+    color: #4c4c4c;
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    width: 200px;
+
+
+
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+    text-indent: 10px;
+
+
+
+
+
+
+    margin-top: 10px;
+
+
+
+
+
+
+    height: 62px;
+
+
+
+
+
+
+    line-height: 20px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shuji-row li p {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shuji-row li .lx {
+
+
+
+
+
+
+    margin-top: 20px;
+
+
+
+
+
+
+    width: 200px;
+
+
+
+
+
+
+    border-top: 1px #cfcdcd solid;
+
+
+
+
+
+
+    padding-top: 10px;
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    color: #808080;
+
+
+
+
+
+
+    letter-spacing: 1px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shuji-row li p.lx span {
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    color: #4c4c4c;
+
+
+
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shuji-row li .jj {
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    color: #4c4c4c;
+
+
+
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+    padding-top: 10px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shuji-row li .jj em {
+
+
+
+
+
+
+    float: right;
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    font-style: normal;
+
+
+
+
+
+
+    font-weight: normal;
+
+
+
+
+
+
+    cursor: pointer;
+
+
+
+
+
+
+    color: #bfbfbf;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shuji-row li .jj em:hover {
+
+
+
+
+
+
+    color: #888;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shuji-row li .info {
+
+
+
+
+
+
+    width: 200px;
+
+
+
+
+
+
+
+
+
+
+
+
+    overflow: hidden;
+
+
+
+
+
+
+    z-index: 200;
+
+
+
+
+
+
+    position: absolute;
+
+
+
+
+
+
+    background-color: white;
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    line-height: 15px;
+
+
+
+
+
+
+    padding-left: 2px;
+
+
+
+
+
+
+    border: 1px #dedede solid;
+
+
+
+
+
+
+    opacity: 0.8;
+
+
+
+
+
+
+    color: #888;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shuji-row li .jj .open,
+
+
+
+
+
+
+.shuji-row li .jj .close {
+
+
+
+
+
+
+    width: 18px;
+
+
+
+
+
+
+    height: 18px;
+
+
+
+
+
+
+    background-image: url(../../images/resources/xiajian_07.png);
+
+
+
+
+
+
+    background-attachment: inherit;
+
+
+
+
+
+
+    background-position-y: center;
+
+
+
+
+
+
+    background-repeat: no-repeat;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shuji-row li .jj .close {
+
+
+
+
+
+
+    background-image: url(../../images/resources/xiajian_08.png);
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shuji-row li .btn,
+
+
+
+
+
+
+.shuji-row li img.btn {
+
+
+
+
+
+
+    width: 80;
+
+
+
+
+
+
+    height: 30px;
+
+
+
+
+
+
+    cursor: pointer;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pagination {
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+    height: 38px;
+
+
+
+
+
+
+    margin-top: 40px;
+
+
+
+
+
+
+    margin-bottom: 40px;
+
+
+
+
+
+
+    margin-left: 300px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pagination li {
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pagination .btn {
+
+
+
+
+
+
+    width: 36px;
+
+
+
+
+
+
+    height: 36px;
+
+
+
+
+
+
+    border-radius: 50px;
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    color: #666666;
+
+
+
+
+
+
+    line-height: 36px;
+
+
+
+
+
+
+    margin-left: 5px;
+
+
+
+
+
+
+    background-color: #f1f1f1;
+
+
+
+
+
+
+    cursor: pointer;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pagination .btn:hover {
+
+
+
+
+
+
+    background-color: #d8d8d8;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pagination .btn.active {
+
+
+
+
+
+
+    background-color: #d2f1bc;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pagination .goto {
+
+
+
+
+
+
+    height: 36px;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    color: #5c5c5c;
+
+
+
+
+
+
+    line-height: 36px;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    margin-left: 25px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pagination .goto input {
+
+
+
+
+
+
+    width: 36px;
+
+
+
+
+
+
+    height: 36px;
+
+
+
+
+
+
+    background-color: #f1f1f1;
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    color: #666666;
+
+
+
+
+
+
+    line-height: 32px;
+
+
+
+
+
+
+    margin: 0px;
+
+
+
+
+
+
+    margin-left: 10px;
+
+
+
+
+
+
+    margin-right: 10px;
+
+
+
+
+
+
+    padding: 0px;
+
+
+
+
+
+
+    border: none;
+
+
+
+
+
+
+    text-align: center;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.title {
+
+
+
+
+
+
+    margin-top: 50px;
+
+
+
+
+
+
+    margin-bottom: 5px;
+
+
+
+
+
+
+    font-size: 18px;
+
+
+
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+    color: #7ec14e;
+
+
+
+
+
+
+    border-bottom: 2px #e5e5e5 solid;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    padding-bottom: 10px;
+
+
+
+
+
+
+    /*   margin-top: 50px;*/
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.title>a {
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+    color: #7ec14e;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#bottom {
+
+
+
+
+
+
+    margin-top: 20px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.title .more {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    float: right;
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    width: 32px;
+
+
+
+
+
+
+    height: 20px;
+
+
+
+
+
+
+    line-height: 20px;
+
+
+
+
+
+
+    color: #4c4c4c;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    border: 1px #4c4c4c solid;
+
+
+
+
+
+
+    border-radius: 20px;
+
+
+
+
+
+
+    padding: 0px 0px 0px 20px;
+
+
+
+
+
+
+    top: 2px;
+
+
+
+
+
+
+    right: 0px;
+
+
+
+
+
+
+    background-image: url(../../images/activit/shi_07.jpg);
+
+
+
+
+
+
+    background-repeat: no-repeat;
+
+
+
+
+
+
+    background-position: 6px 4px;
+
+
+
+
+
+
+    background-size: 10px 10px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.title .more img {
+
+
+
+
+
+
+    margin-top: 4px;
+
+
+
+
+
+
+    margin-right: 5px;
+
+
+
+
+
+
+    margin-left: 5px;
+
+
+
+
+
+
+    width: 10px;
+
+
+
+
+
+
+    height: 10px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.title2 {
+
+
+
+
+
+
+    margin-top: 20px;
+
+
+
+
+
+
+    margin-bottom: 10px;
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    color: #888;
+
+
+
+
+
+
+    border-bottom: 2px #7dc44c solid;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    padding-bottom: 10px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.title2 a {
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    color: #888;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.title2 .tab {
+
+
+
+
+
+
+    padding-right: 30px;
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    cursor: pointer;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.title2 .tab:hover,
+
+
+
+
+
+
+.title2 .tab.active {
+
+
+
+
+
+
+    color: #7ec24d;
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.title2 .more {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    float: right;
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    width: 32px;
+
+
+
+
+
+
+    height: 20px;
+
+
+
+
+
+
+    line-height: 20px;
+
+
+
+
+
+
+    color: #4c4c4c;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    border: 1px #4c4c4c solid;
+
+
+
+
+
+
+    border-radius: 20px;
+
+
+
+
+
+
+    padding: 0px 0px 0px 20px;
+
+
+
+
+
+
+    top: 2px;
+
+
+
+
+
+
+    right: 0px;
+
+
+
+
+
+
+    background-image: url(../../images/activit/shi_07.jpg);
+
+
+
+
+
+
+    background-repeat: no-repeat;
+
+
+
+
+
+
+    background-position: 6px 4px;
+
+
+
+
+
+
+    background-size: 10px 10px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.title2 .more img {
+
+
+
+
+
+
+    margin-top: 4px;
+
+
+
+
+
+
+    margin-right: 5px;
+
+
+
+
+
+
+    margin-left: 5px;
+
+
+
+
+
+
+    width: 10px;
+
+
+
+
+
+
+    height: 10px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.newactivit {
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    list-style: none;
+
+
+
+
+
+
+    margin-top: 15px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.newactivit li {
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    margin-left: 69px;
+
+
+
+
+
+
+    cursor: pointer;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.newactivit li.first {
+
+
+
+
+
+
+    margin-left: 0px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.newactivit li img {
+
+
+
+
+
+
+    width: 150px;
+
+
+
+
+
+
+    height: 100px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.newactivit li.last img {
+
+
+
+
+
+
+    width: 102px;
+
+
+
+
+
+
+    height: 103px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.newactivit li:hover {
+
+
+
+
+
+
+    transform: scale(1.1);
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hdbg-left {
+
+
+
+
+
+
+    width: 380px;
+
+
+
+
+
+
+    height: 350px;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    top: 20px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hdbg-right {
+
+
+
+
+
+
+    width: 66%;
+
+
+
+
+
+
+    height: 350px;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    top: 20px;
+
+
+
+
+
+
+    margin-left: 24px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.font-rows {
+
+
+
+
+
+
+    list-style: none;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.font-rows-ful {
+
+
+
+
+
+
+    /* padding-left: 15px;*/
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.font-rows li,
+
+
+
+
+
+
+.font-rows-ful li {
+
+
+
+
+
+
+    height: 36px;
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    color: #4c4c4c;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    text-indent: 15px;
+
+
+
+
+
+
+    line-height: 36px;
+
+
+
+
+
+
+}
+
+.font-rows li:hover{
+  transform: scale(1.01);
+}
+
+
+
+
+
+
+
+
+
+
+
+.font-rows li a,
+
+
+
+
+
+
+.font-rows-ful li a {
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    color: #4c4c4c;
+
+
+
+
+
+
+}
+
+.hdbg-left img{
+	
+	width:380px;
+	height:350px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.font-rows li a:hover,
+
+
+
+
+
+
+.font-rows-ful li a:hover,
+
+
+
+
+
+
+.font-rows li a:active,
+
+
+
+
+
+
+.font-rows-ful li a:active {
+
+
+
+
+
+
+    text-decoration: none;
+
+
+
+
+
+
+    color: #808080;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.font-rows-ful li {
+
+
+
+
+
+
+    line-height: 40px;
+
+
+
+
+
+
+    height: 40px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.font-rows li:nth-child(odd),
+
+
+
+
+
+
+.font-rows li.odd,
+
+
+
+
+
+
+.font-rows-ful li:nth-child(odd),
+
+
+
+
+
+
+.font-rows-ful li.odd {
+
+
+
+
+
+
+    background: #f7f7f7;
+
+
+
+
+
+
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+.font-rows li:nth-child(even),
+
+
+
+
+
+
+.font-rows-ful li:nth-child(even) {
+
+
+
+
+
+
+    background: none;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fontimg-rows {
+
+
+
+
+
+
+    list-style: none;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fontimg-rows>li{
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+    height: 200px;
+
+
+
+
+
+
+    padding-top: 40px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fontimg-rows>li .leftimg {
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    width: 300px;
+
+
+
+
+
+
+    height: 200px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fontimg-rows>li .rightinfo {
+
+
+
+
+
+
+    float: right;
+
+
+
+
+
+
+    width: 860px;
+
+
+
+
+
+
+    height: 200px;
+
+
+
+
+
+
+    padding: 20px;
+
+
+
+
+
+
+    padding-top: 0px;
+
+
+
+
+
+
+    padding-bottom: 0px;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fontimg-rows>li .rightinfo h1 {
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    font-size: 24px;
+
+
+
+
+
+
+    color: #5c5c5c;
+
+
+
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fontimg-rows>li .rightinfo h1 span {
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    color: #808080;
+
+
+
+
+
+
+    font-weight: normal;
+
+
+
+
+
+
+    margin-left: 20px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fontimg-rows>li .rightinfo h2 {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    top: 20px;
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    color: #737373;
+
+
+
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fontimg-rows>li .rightinfo p {
+
+
+
+
+
+
+    width: 796px;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    top: 20px;
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    margin-left: 80px;
+
+
+
+
+
+
+    color: #808080;
+
+
+
+
+
+
+    line-height: 22px;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fontimg-rows>li .rightinfo .btn {
+
+
+
+
+
+
+    position: absolute;
+
+
+
+
+
+
+    bottom: 5px;
+
+
+
+
+
+
+    right: 20px;
+
+
+
+
+
+
+    float: right;
+
+
+
+
+
+
+    color: #ffffff;
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    width: 80px;
+
+
+
+
+
+
+    height: 30px;
+
+
+
+
+
+
+    background-color: #7ec14e;
+
+
+
+
+
+
+    line-height: 30px;
+
+
+
+
+
+
+    text-align: center;
+
+
+
+
+
+
+    border-radius: 20px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fontimg-rows>li .rightinfo .btn img {
+
+
+
+
+
+
+    float: right;
+
+
+
+
+
+
+    height: 30px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rank-panel {
+
+
+
+
+
+
+    width: 280px;
+
+
+
+
+
+
+    height: 382px;
+
+
+
+
+
+
+    margin-bottom: 10px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rank-panel h1 {
+
+
+
+
+
+
+    font-size: 18px;
+
+
+
+
+
+
+    color: #ffffff;
+
+
+
+
+
+
+    background-color: #484848;
+
+
+
+
+
+
+    height: 54px;
+
+
+
+
+
+
+    line-height: 54px;
+
+
+
+
+
+
+    border-radius: 5px;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    padding-left: 15px;
+
+
+
+
+
+
+    overflow: hidden;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rank-panel h1 a,
+
+
+
+
+
+
+.rank-panel h1 a:hover,
+
+
+
+
+
+
+.rank-panel h1 a:active {
+
+
+
+
+
+
+    text-decoration: none;
+
+
+
+
+
+
+    font-size: 18px;
+
+
+
+
+
+
+    color: #ffffff;
+
+
+
+
+
+
+    cursor: pointer;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rank-panel h1 span {
+
+
+
+
+
+
+    margin-left: 130px;
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rank-row {
+
+
+
+
+
+
+    margin-bottom: 10px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rank-panel .rank-tab {
+
+
+
+
+
+
+    display: inline-block;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rank-panel .rank-tab,
+
+
+
+
+
+
+.rank-panel .rank-row {
+
+
+
+
+
+
+    list-style: none;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+    /*display: inline-block;*/
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rank-panel .rank-tab li {
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    color: #808080;
+
+
+
+
+
+
+    line-height: 50px;
+
+
+
+
+
+
+    width: 25%;
+
+
+
+
+
+
+    cursor: pointer;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rank-panel .rank-tab li.active,
+
+
+
+
+
+
+.rank-panel .rank-tab li:hover {
+
+
+
+
+
+
+    color: #7dc44c;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rank-panel .rank-tab li.active {
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rank-row li {
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    color: #5b5b5b;
+
+
+
+
+
+
+    height: 54px;
+
+
+
+
+
+
+    line-height: 54px;
+
+
+
+
+
+
+    border-bottom: 1px solid #dedede;
+
+
+
+
+
+
+    overflow: hidden;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    padding-left: 15px;
+
+
+
+
+
+
+    cursor: pointer;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rank-row li:hover {
+
+
+
+
+
+
+    background: #f7f7f7;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rank-row li em {
+
+
+
+
+
+
+    width: 20px;
+
+
+
+
+
+
+    height: 20px;
+
+
+
+
+
+
+    line-height: 20px;
+
+
+
+
+
+
+    background-color: #b2b2b2;
+
+
+
+
+
+
+    margin-right: 5px;
+
+
+
+
+
+
+    border-radius: 50%;
+
+
+
+
+
+
+    color: white;
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    font-style: normal;
+
+
+
+
+
+
+    padding: 2px 6px 2px 6px;
+
+
+
+
+
+
+    /* padding-right: 5px; */
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rank-row li em.hot {
+
+
+
+
+
+
+    background-color: #f16c41;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rank-row li a,
+
+
+
+
+
+
+.rank-row li a:focus,
+
+
+
+
+
+
+.rank-row li a:hover {
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    color: #5b5b5b;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.banner-mini img {
+
+
+
+
+
+
+    width: 874px;
+
+
+
+
+
+
+    height: 150px;
+
+
+
+
+
+
+    border-radius: 6px;
+
+
+
+
+
+
+    margin-bottom: 30px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lunbo {
+
+
+
+
+
+
+    width: 876px;
+
+
+
+
+
+
+    height: 368px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lunbo_left {
+
+
+
+
+
+
+    width: 288px;
+
+
+
+
+
+
+    height: 290px;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    line-height: 290px;
+
+
+
+
+
+
+    margin-top: 30px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lunbo_left img {
+
+
+
+
+
+
+    width: 173px;
+
+
+
+
+
+
+    height: 240px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lunbo_right {
+
+
+
+
+
+
+    width: 570px;
+
+
+
+
+
+
+    height: 290px;
+
+
+
+
+
+
+    float: right;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    margin-top: 30px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lunbo_right ul li.hot {
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    color: #ee6948;
+
+
+
+
+
+
+    margin-top: 0px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lunbo_right ul li.btn {
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    float: right;
+
+
+
+
+
+
+    color: #ffffff;
+
+
+
+
+
+
+    background-color: #7ec14e;
+
+
+
+
+
+
+    line-height: 30px;
+
+
+
+
+
+
+    text-align: center;
+
+
+
+
+
+
+    width: 80px;
+
+
+
+
+
+
+    height: 30px;
+
+
+
+
+
+
+    border-radius: 20px;
+
+
+
+
+
+
+    /* position: relative;
+
+
+
+
+
+
+    top: -52px;
+
+
+
+
+
+
+    left: -44px; */
+
+
+
+
+
+
+    position: absolute;
+
+
+
+
+
+
+    right: 10px;
+
+
+
+
+
+
+    bottom: 10px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lunbo_right ul li.btn a {
+
+
+
+
+
+
+    color: #ffffff;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lunbo_right ul li .book_name {
+
+
+
+
+
+
+    font-size: 30px;
+
+
+
+
+
+
+    color: #4c4c4c;
+
+
+
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lunbo_right ul li:nth-last-child(4) span:last-child {
+
+
+
+
+
+
+    font-size: 24px;
+
+
+
+
+
+
+    margin-left: 150px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lunbo_right ul li.write {
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    color: #808080;
+
+
+
+
+
+
+    margin-top: 5px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lunbo_right ul li.write span {
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+    color: #808080;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lunbo_right ul li.write p {
+
+
+
+
+
+
+    width: 62%;
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    color: #808080;
+
+
+
+
+
+
+    line-height: 20px;
+
+
+
+
+
+
+    margin-left: 40px;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    top: -19px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lunbo .quan {
+
+
+
+
+
+
+    width: 400px;
+
+
+
+
+
+
+    height: 20px;
+
+
+
+
+
+
+    padding-left: 180px;
+
+
+
+
+
+
+    margin: 0 auto;
+
+
+
+
+
+
+    text-align: center;
+
+
+
+
+
+
+    bottom: 4px;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    left: 55px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lunbo .quan li {
+
+
+
+
+
+
+    width: 6px;
+
+
+
+
+
+
+    height: 6px;
+
+
+
+
+
+
+    background-color: #808080;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    margin-left: 8px;
+
+
+
+
+
+
+    border-radius: 58px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lunbo .quan li:hover {
+
+
+
+
+
+
+    background-color: #7dc44c;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.zxzl {
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+    margin-top: 8px;
+
+
+
+
+
+
+    display: inline-block;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.zxzl li {
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    width: 275px;
+
+
+
+
+
+
+    height: 242px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.zxzl li:hover {
+
+
+
+
+
+
+    transform: scale(1.01);
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.zxzl li img {
+
+
+
+
+
+
+    width: 275px;
+
+
+
+
+
+
+    height: 200px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.zxzl li:not(:first-child) {
+
+
+
+
+
+
+    margin-left: 25px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.zxzl li .info,
+
+
+
+
+
+
+.zxzl li .info-c {
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    color: #666666;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    margin-top: 10px;
+
+
+
+
+
+
+    border-top: 1px #7dc44c solid;
+
+
+
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+    padding-top: 8px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.zxzl li .info-c {
+
+
+
+
+
+
+    text-align: center;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.zxzl li .info span {
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    color: #666666;
+
+
+
+
+
+
+    margin-left: 20px;
+
+
+
+
+
+
+    opacity: 0.9;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.show_title {
+
+
+
+
+
+
+    width: 876px;
+
+
+
+
+
+
+    height: 30px;
+
+
+
+
+
+
+    margin-top: 8px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.show_title li {
+
+
+
+
+
+
+    width: 275px;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    line-height: 30px;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    border-top: 1px #7dc44c solid;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.show_title li:not(:first-child) {
+
+
+
+
+
+
+    margin-left: 25px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.show_title li span {
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    color: #666666;
+
+
+
+
+
+
+    margin-right: 20px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bggk-left {
+
+
+
+
+
+
+    width: 600px;
+
+
+
+
+
+
+    height: 346px;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    margin-top: 20px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bggk {
+
+
+
+
+
+
+    border-bottom: 2px #7ec14e solid;
+
+
+
+
+
+
+    padding-bottom: 15px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bggk-right {
+
+
+
+
+
+
+    width: 570px;
+
+
+
+
+
+
+    height: 346px;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    margin-left: 26px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bggk-right p {
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    line-height: 30px;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    text-indent: 30px;
+
+
+
+
+
+
+    color: #5b5b5b;
+
+
+
+
+
+
+    padding-top: 20px;
+
+
+
+
+
+
+    line-height: 26px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bggk-right .btn {
+
+
+
+
+
+
+    width: 80px;
+
+
+
+
+
+
+    height: 30px;
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    line-height: 30px;
+
+
+
+
+
+
+    color: #ffffff;
+
+
+
+
+
+
+    background-color: #7ec14e;
+
+
+
+
+
+
+    border-radius: 20px;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    /* left: 240px; */
+
+
+
+
+
+
+    bottom: 5px;
+
+
+
+
+
+
+    float: right;
+
+
+
+
+
+
+    right: 10px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bggk-right .btn a,
+
+
+
+
+
+
+.bggk-right .btn a:hover,
+
+
+
+
+
+
+.bggk-right .btn a:active {
+
+
+
+
+
+
+    color: #ffffff;
+
+
+
+
+
+
+    text-decoration: none;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.border-b {
+
+
+
+
+
+
+    border-bottom: 2px #7ec14e solid;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mtcz-left {
+
+
+
+
+
+
+    width: 660px;
+
+
+
+
+
+
+    height: 346px;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mtcz-right {
+
+
+
+
+
+
+    width: 498px;
+
+
+
+
+
+
+    height: 346px;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    margin-left: 38px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mtcz-left h1 {
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    color: #4c4c4c;
+
+
+
+
+
+
+    margin-bottom: 10px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mtcz-left h1 a {
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+    color: #4c4c4c;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mtcz-left p {
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    line-height: 25px;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    text-indent: 20px;
+
+
+
+
+
+
+    color: #4c4c4c;
+    height:230px;
+    overflow: hidden;
+    /*white-space: nowrap;
+    text-overflow: ellipsis;*/
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mtcz-right img {
+
+
+
+
+
+
+    width: 500px;
+
+
+
+
+
+
+    height: 290px;
+
+
+
+
+
+
+    margin-top: 84px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mtcz-btns {
+
+
+
+
+
+
+    width: 140px;
+
+
+
+
+
+
+    height: 30px;
+
+
+
+
+
+
+    /* font-size: 16px; */
+
+
+
+
+
+
+    line-height: 30px;
+
+
+
+
+
+
+    color: #fff;
+
+
+
+
+
+
+    /* border-radius: 20px; */
+
+
+
+
+
+
+    float: right;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    right: 5px;
+
+
+
+
+
+
+    top: 10px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-left,
+
+
+
+
+
+
+.btn-right {
+
+
+
+
+
+
+    width: 25px;
+
+
+
+
+
+
+    height: 25px;
+
+
+
+
+
+
+    border: 1px #7ec14e solid;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    border-radius: 50px;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    left: 60px;
+
+
+
+
+
+
+    color: #7ec14e;
+
+
+
+
+
+
+    font-size: 28px;
+
+
+
+
+
+
+    background-image: url(../../images/information/y.png);
+
+
+
+
+
+
+    background-position: 8px 6px;
+
+
+
+
+
+
+    background-repeat: no-repeat;
+
+
+
+
+
+
+    margin-left: 5px;
+
+
+
+
+
+
+    margin-right: 5px;
+
+
+
+
+
+
+    cursor: pointer;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-left:hover,
+
+
+
+
+
+
+.btn-right:hover {
+
+
+
+
+
+
+    border: 1px #7ec14e solid;
+
+
+
+
+
+
+    background-color: #7ec14e;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-left:hover {
+
+
+
+
+
+
+    background-image: url(../../images/information/right.png);
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-right:hover {
+
+
+
+
+
+
+    background-image: url(../../images/information/left.png);
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-left {
+
+
+
+
+
+
+    background-image: url(../../images/information/y.png);
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-right {
+
+
+
+
+
+
+    background-image: url(../../images/information/z.png);
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.jctsg {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    display: inline-block;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.jctsg li {
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    width: 580px;
+
+
+
+
+
+
+    height: 140px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.jctsg li:last-child {
+
+
+
+
+
+
+    margin-left: 40px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.jctsg li img {
+
+
+
+
+
+
+    width: 580px;
+
+
+
+
+
+
+    height: 140px;
+
+
+
+
+
+
+    border-radius: 8px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.detail {
+
+
+
+
+
+
+    margin-top: 90px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.detail_title p {
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    border-bottom: 1px #dedede solid;
+
+
+
+
+
+
+    height: 50px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.detail_title p span:first-child {
+
+
+
+
+
+
+    font-size: 22px;
+
+
+
+
+
+
+    color: #7ec14e;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.detail_title p span:nth-last-child(2) {
+
+
+
+
+
+
+    margin-left: 761px;
+
+
+
+
+
+
+    margin-right: 30px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.detail_title p span:not(:first-child) {
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    color: #999999;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    top: 15px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.detail_title p span img {
+
+
+
+
+
+
+    margin-top: 12px;
+
+
+
+
+
+
+    margin-right: 10px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.detail_body {
+
+
+
+
+
+
+    padding-top: 50px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.detail_body p {
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    color: #4c4c4c;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    text-indent: 30px;
+
+
+
+
+
+
+    line-height: 28px;
+
+
+
+
+
+
+    font-weight: 600px;
+
+
+
+
+
+
+}
+
+
+.detail_attachment li,
+.detail_attachment p{
+	line-height:24px;
+	text-align:left;
+	
+}
+
+.detail_attachment li a,
+.detail_attachment p {
+	color:#4c4c4c;
+	font-size:16px;
+}
+
+
+
+
+
+
+
+
+
+
+.detail_body>ul>li {
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    padding-left: 30px;
+
+
+
+
+
+
+    border-bottom: 1px solid #e2e2e2;
+
+
+
+
+
+
+    font-size: 18px;
+
+
+
+
+
+
+    line-height: 40px;
+
+
+
+
+
+
+    height: 40px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.detail_body>ul>li>a {
+
+
+
+
+
+
+    font-size: 18px;
+
+
+
+
+
+
+    line-height: 40px;
+
+
+
+
+
+
+    height: 40px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.detail_img {
+
+
+
+
+
+
+    width: 960px;
+
+
+
+
+
+
+    height: 672px;
+
+
+
+
+
+
+    margin-top: 20px;
+
+
+
+
+
+
+    margin-bottom: 20px;
+
+
+
+
+
+
+    background-color: #efefef;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.book {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    border-top: 2px #7ec14e solid;
+
+
+
+
+
+
+    border-bottom: 2px #7ec14e solid;
+
+
+
+
+
+
+    height: 290px;
+
+
+
+
+
+
+    padding-bottom: 20px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.book_bgcolor {
+
+
+
+
+
+
+    background-color: #f7f7f7;
+
+
+
+
+
+
+    margin-bottom: 5px;
+
+
+
+
+
+
+    margin-top: 5px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.book_left {
+
+
+
+
+
+
+    width: 288px;
+
+
+
+
+
+
+    height: 290px;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    line-height: 326px;
+
+
+
+
+
+
+    background-color: #f7f7f7;
+
+
+
+
+
+
+    margin-bottom: 10px;
+
+
+
+
+
+
+    margin-top: 10px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.book_left img {
+
+
+
+
+
+
+    margin-top: 23px;
+
+
+
+
+
+
+    width: 173px;
+
+
+
+
+
+
+    height: 240px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.book_right {
+
+
+
+
+
+
+    width: 912px;
+
+
+
+
+
+
+    height: 290px;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    background-color: #f7f7f7;
+
+
+
+
+
+
+    margin-bottom: 10px;
+
+
+
+
+
+
+    margin-top: 10px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.book_right ul {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    top: 40px;
+
+
+
+
+
+
+    width: 910px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.book_right ul li:first-child {
+
+
+
+
+
+
+    /* font-size: 12px; */
+
+
+
+
+
+
+    color: #ee6948;
+
+
+
+
+
+
+    margin-top: 5px;
+
+
+
+
+
+
+    color: #4C4C4C;
+
+
+
+
+
+
+    font-size: 30px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.book_right ul li:nth-last-child(4),
+
+
+
+
+
+
+.book_right ul li:nth-last-child(3),
+
+
+
+
+
+
+.book_right ul li:nth-last-child(2) {
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    color: #808080;
+
+
+
+
+
+
+    margin-top: 5px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.book_right ul li:nth-last-child(4) span,
+
+
+
+
+
+
+.book_right ul li:nth-last-child(3) span,
+
+
+
+
+
+
+.book_right ul li:nth-last-child(2) span {
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    color: #808080;
+
+
+
+
+
+
+    font-weight: 800;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.book_right ul li:last-child {
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    float: right;
+
+
+
+
+
+
+    color: #ffffff;
+
+
+
+
+
+
+    background-color: #7ec14e;
+
+
+
+
+
+
+    line-height: 30px;
+
+
+
+
+
+
+    text-align: center;
+
+
+
+
+
+
+    width: 120px;
+
+
+
+
+
+
+    height: 30px;
+
+
+
+
+
+
+    border-radius: 20px;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    top: 32px;
+
+
+
+
+
+
+    left: -794px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.book_right ul li:last-child a {
+
+
+
+
+
+
+    color: #ffffff;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.star {
+
+
+
+
+
+
+    margin-left: -380px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.star img {
+
+
+
+
+
+
+    margin-top: 25px;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    left: 406px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.introduction {
+
+
+
+
+
+
+    height: 200px;
+
+
+
+
+
+
+    margin-top: 20px;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.introduction p {
+
+
+
+
+
+
+    margin-left: 50px;
+
+
+
+
+
+
+    margin-right: 50px;
+
+
+
+
+
+
+    height: 200px;
+
+
+
+
+
+
+    color: #808080;
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    line-height: 22px;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    text-indent: 0px;
+
+
+
+
+
+
+    font-weight: normal;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    overflow: hidden;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.introduction_left {
+
+
+
+
+
+
+    width: 40px;
+
+
+
+
+
+
+    height: 200px;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    color: #808080;
+
+
+
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.introduction_right {
+
+
+
+
+
+
+    width: 1100px;
+
+
+
+
+
+
+    height: 200px;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    color: #808080;
+
+
+
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.like_book {
+
+
+
+
+
+
+    list-style: none;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.like_book li {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    width: 112px;
+
+
+
+
+
+
+    height: 183px;
+
+
+
+
+
+
+    padding-top: 20px;
+
+
+
+
+
+
+    margin-left: 50px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.like_book li:first-child {
+
+
+
+
+
+
+    margin-left: 20px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.like_book li img {
+
+
+
+
+
+
+    width: 112px;
+
+
+
+
+
+
+    height: 153px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.comments {
+
+
+
+
+
+
+    margin-top: 20px;
+
+
+
+
+
+
+    padding-left: 30px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.comments input {
+
+
+
+
+
+
+    width: 1070px;
+
+
+
+
+
+
+    height: 35px;
+
+
+
+
+
+
+    border: 1px black solid;
+
+
+
+
+
+
+    border-radius: 5px;
+
+
+
+
+
+
+    padding-left: 40px;
+
+
+
+
+
+
+    outline: none;
+
+
+
+
+
+
+    background-image: url(../../images/bookView/pen.jpg);
+
+
+
+
+
+
+    background-repeat: no-repeat;
+
+
+
+
+
+
+    background-position: 12px 4px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.comments input::-webkit-input-placeholder {
+
+
+
+
+
+
+    opacity: 0.7;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.comments img {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    left: 40px;
+
+
+
+
+
+
+    top: 2px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.comments .col {
+
+
+
+
+
+
+    color: #7ec14e;
+
+
+
+
+
+
+    font-size: 18px;
+
+
+
+
+
+
+    margin-left: 10px;
+
+
+
+
+
+
+    cursor: pointer;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.comments_record {
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    /* margin-top: 50px; */
+
+
+
+
+
+
+    margin-top: 0px;
+
+
+
+
+
+
+    border-bottom: 1px solid #cacaca;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.comments_record li {
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    padding-left: 10px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.comments_record li:first-child {
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    padding-left: 30px;
+
+
+
+
+
+
+    font-size: 18px;
+
+
+
+
+
+
+    height: 30px;
+
+
+
+
+
+
+    line-height: 30px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.comments_record li:first-child a {
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    color: #23a4c3;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.comments_record .record small {
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    color: #26a5c3;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.comments_record li .username {
+
+
+
+
+
+
+    width: 80px;
+
+
+
+
+
+
+    height: 70px;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    color: #5b5b5b;
+
+
+
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    left: 30px;
+
+
+
+
+
+
+    padding-top: 5px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.comments_record li .record {
+
+
+
+
+
+
+    width: 1088px;
+
+
+
+
+
+
+    height: 40px;
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    color: #5b5b5b;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    overflow: hidden;
+
+
+
+
+
+
+    line-height: 30px;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    left: 20px;
+
+
+
+
+
+
+    opacity: 0.9;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.comments_record li small {
+
+
+
+
+
+
+    color: #7EC14E;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.infor_main {
+
+
+
+
+
+
+    margin-top:0;
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.infor_main .leftmenu {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    width: 280px;
+
+
+
+
+
+
+    padding: 0px;
+
+
+
+
+
+
+    list-style: none;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.infor_main .leftmenu li {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    width: 260px;
+
+
+
+
+
+
+    border-bottom: 1px #dedede solid;
+
+
+
+
+
+
+    cursor: pointer;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    height: 52px;
+
+
+
+
+
+
+    line-height: 52px;
+
+
+
+
+
+
+    padding-left: 20px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.infor_main .leftmenu li a {
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    text-decoration: none;
+
+
+
+
+
+
+    color: #333333;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.infor_main .leftmenu li a:hover,*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+.infor_main .leftmenu li a:active,
+
+
+
+
+
+
+.infor_main .leftmenu li a.active,
+
+
+
+
+
+
+{
+
+
+
+
+
+
+    text-decoration: none;
+
+
+
+
+
+
+    color: #7dc44c;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.infor_main .leftmenu li.active,
+
+
+
+
+
+
+.asso_left ul li.active,
+
+
+
+
+
+
+.job_left ul li.active {
+
+
+
+
+
+
+    color: #7dc44c;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.infor_main .leftmenu li:hover,
+
+
+
+
+
+
+.asso_left ul li:hover,
+
+
+
+
+
+
+.job_left ul li:hover {
+
+
+
+
+
+
+    color: #7f7f7f;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.infor_main .leftmenu li:hover {
+
+
+
+
+
+
+    /* transform: scale(1.1); */
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.infor_main .leftmenu .title {
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    font-size: 18px;
+
+
+
+
+
+
+    color: #ffffff;
+
+
+
+
+
+
+    height: 52px;
+
+
+
+
+
+
+    line-height: 52px;
+
+
+
+
+
+
+    background-color: #484848;
+
+
+
+
+
+
+    border-radius: 5px;
+
+
+
+
+
+
+    padding-left: 20px;
+
+
+
+
+
+
+    padding-top: 0px;
+
+
+
+
+
+
+    padding-bottom: 0px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.infor_main .leftmenu .title:hover {
+
+
+
+
+
+
+    color: #ffffff;
+
+
+
+
+
+
+    transform: scale(1);
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.infor_main .content {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    width: 850px;
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    line-height: 30px;
+
+
+
+
+
+
+    color: #797979;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    text-indent: 30px;
+
+
+
+
+
+
+    padding: 35px;
+
+
+
+
+
+
+    padding-top: 0px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.infor_main .content p {
+
+
+
+
+
+
+    margin-top: 60px;
+
+
+
+
+
+
+    margin-bottom: 10px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.infor_main .content h1 {
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+    margin-bottom: 20px;
+
+
+
+
+
+
+    margin-top: 20px;
+
+
+
+
+
+
+    color: #5b5b5b;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.infor_main .content h1 span {
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    font-weight: normal;
+
+
+
+
+
+
+    margin-left: 15px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.infor_main .content h2 {
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    color: #5b5b5b;
+
+
+
+
+
+
+    line-height: 25px;
+
+
+
+
+
+
+    margin-top: 20px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.infor_main .content ul li {
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    color: #5b5b5b;
+
+
+
+
+
+
+    line-height: 25px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.objective {
+
+
+
+
+
+
+    margin-top: 25px;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.objective h1 {
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    color: #5b5b5b;
+
+
+
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.objective h2 {
+
+
+
+
+
+
+    margin-left: 60px;
+
+
+
+
+
+
+    margin-top: 10px;
+
+
+
+
+
+
+    margin-bottom: 10px;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    color: #5b5b5b;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.objective h2 span {
+
+
+
+
+
+
+    margin-left: 5px;
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    color: #808080;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.objective .obj_word {
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    margin-left: 120px;
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    text-indent: 0px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.objective .hou {
+
+
+
+
+
+
+    margin-bottom: 10px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.objective .hou p {
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    margin-left: 117px;
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    color: #808080;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.objective .hou ul li {
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    margin-left: 150px;
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    color: #808080;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.objective .paragraph {
+
+
+
+
+
+
+    width: 814px;
+
+
+
+
+
+
+    padding-left: 60px;
+
+
+
+
+
+
+    float: right;
+
+
+
+
+
+
+    margin-top: 10px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.objective .paragraph div:first-child {
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    color: #5b5b5b;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.objective .paragraph div:not(:first-child) {
+
+
+
+
+
+
+    width: 720px;
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    color: #808080;
+
+
+
+
+
+
+    float: right;
+
+
+
+
+
+
+    display: inline;
+
+
+
+
+
+
+    margin-left: 10px;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.objective .paragraph div p {
+
+
+
+
+
+
+    width: 720px;
+
+
+
+
+
+
+    overflow: hidden;
+
+
+
+
+
+
+    margin-top: 0px;
+
+
+
+
+
+
+    margin-bottom: 0px;
+
+
+
+
+
+
+    text-indent: 0px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.desire h3 {
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    color: #808080;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    margin-left: 106px;
+
+
+
+
+
+
+    margin-bottom: 5px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.usercenter-main {
+
+
+
+
+
+
+    width: 1200px;
+
+
+
+
+
+
+    height: 870px;
+
+
+
+
+
+
+    background-color: #f8f8f8;
+
+
+
+
+
+
+    margin-top: 20px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.usercenter-main .left {
+
+
+
+
+
+
+    width: 380px;
+
+
+
+
+
+
+    height: 840px;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    background-color: #ffffff;
+
+
+
+
+
+
+    padding-left: 12px;
+
+
+
+
+
+
+    padding-right: 12px;
+
+
+
+
+
+
+    padding-top: 12px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.usercenter-main .right {
+
+
+
+
+
+
+    width: 760px;
+
+
+
+
+
+
+    height: 840px;
+
+
+
+
+
+
+    float: right;
+
+
+
+
+
+
+    background-color: #ffffff;
+
+
+
+
+
+
+    padding-left: 12px;
+
+
+
+
+
+
+    padding-right: 12px;
+
+
+
+
+
+
+    padding-top: 12px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.usercenter-main .left_1 {
+
+
+
+
+
+
+    width: 370px;
+
+
+
+
+
+
+    height: 320px;
+
+
+
+
+
+
+    margin-bottom: 80px;
+
+
+
+
+
+
+    margin-left: 5px;
+
+
+
+
+
+
+    margin-top: 10px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.usercenter-main .left_1 ul {
+
+
+
+
+
+
+    padding: 10px 0 10px 5px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.usercenter-main .left_1 ul:not(:last-child) {
+
+
+
+
+
+
+    border-bottom: 1px #dedede solid;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.usercenter-main .lefts_1 {
+
+
+
+
+
+
+    width: 370px;
+
+
+
+
+
+
+    height: 440px;
+
+
+
+
+
+
+    margin-bottom: 60px;
+
+
+
+
+
+
+    margin-left: 5px;
+
+
+
+
+
+
+    margin-top: 10px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.usercenter-main .lefts_1 ul {
+
+
+
+
+
+
+    padding: 10px 0 10px 5px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.usercenter-main .lefts_1 ul:not(:last-child) {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.usercenter-main .right_1 {
+
+
+
+
+
+
+    width: 760px;
+
+
+
+
+
+
+    height: 450px;
+
+
+
+
+
+
+    margin-top: 10px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.usercenter-main .right_2 {
+
+
+
+
+
+
+    width: 760px;
+
+
+
+
+
+
+    height: 350px;
+
+
+
+
+
+
+    margin-top: 20px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.usercenter-main .left_2 {
+
+
+
+
+
+
+    width: 370px;
+
+
+
+
+
+
+    height: 280px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.usercenter-main .left_2>ul {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+    padding: 6px;
+
+
+
+
+
+
+    padding-top: 30px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.usercenter-main .left_2>ul>li {
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.usercenter-main .left_2>ul>li>img {
+
+
+
+
+
+
+    width: 70px;
+
+
+
+
+
+
+    height: 90px;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.usercenter-main .left_2>ul>li .wenzi {
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    margin-top: 10px;
+
+
+
+
+
+
+    margin-left: 8px;
+
+
+
+
+
+
+    width: 260px;
+
+
+
+
+
+
+    height: 100px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.usercenter-main .left_2>ul>li .tim {
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    color: #5b5b5b;
+
+
+
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.usercenter-main .left_2>ul>li .juli {
+
+
+
+
+
+
+    margin-top: 10px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.usercenter-main .left_2>ul>li .tim_1 {
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    color: #808080;
+
+
+
+
+
+
+    line-height: 18px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.usercenter-main .right_1 .redbook {
+
+
+
+
+
+
+    width: 744px;
+
+
+
+
+
+
+    height: 378px;
+
+
+
+
+
+
+    padding: 8px;
+
+
+
+
+
+
+    overflow-x: hidden;
+
+
+
+
+
+
+    overflow-y: auto;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.usercenter-main .right_1 .redbook>li {
+
+
+
+
+
+
+    border-bottom: 1px #dedede solid;
+
+
+
+
+
+
+    height: 114px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.usercenter-main .right_1 .redbook>li .jq {
+
+
+
+
+
+
+    color: #696969;
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+    margin-top: 10px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.usercenter-main .right_1 .redbook>li .jq em {
+
+
+
+
+
+
+    color: #7ec14e;
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    font-style: normal;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    margin-top: 10px;
+
+
+
+
+
+
+    margin-left: 20px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.usercenter-main .right_1 .redbook>li .jie {
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    color: #808080;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    margin-top: 15px;
+
+
+
+
+
+
+    margin-left: 5px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.usercenter-main .right_1 .redbook>li .huan {
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    color: #808080;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    margin-top: 5px;
+
+
+
+
+
+
+    margin-left: 5px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.usercenter-main .right_1 .redbook>li .xujie {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    float: right;
+
+
+
+
+
+
+    bottom: 20px;
+
+
+
+
+
+
+    right: 20px;
+
+
+
+
+
+
+    width: 120px;
+
+
+
+
+
+
+    height: 30px;
+
+
+
+
+
+
+    cursor: pointer;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.usercenter-main .right_2 .redhistory {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+    height: 290px;
+
+
+
+
+
+
+    margin-top: 10px;
+
+
+
+
+
+
+    overflow-x: hidden;
+
+
+
+
+
+
+    overflow-y: auto;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.usercenter-main .right_2 .redhistory li {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    width: 750px;
+
+
+
+
+
+
+    color: #696969;
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    border-bottom: 1px #dedede solid;
+
+
+
+
+
+
+    height: 56px;
+
+
+
+
+
+
+    line-height: 56px;
+
+
+
+
+
+
+    margin-left: 4px;
+
+
+
+
+
+
+    margin-right: 4px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.usercenter-main .right_2 .redhistory li a,
+
+
+
+
+
+
+.usercenter-main .right_2 .redhistory li a:hover,
+
+
+
+
+
+
+.usercenter-main .right_2 .redhistory li a:active {
+
+
+
+
+
+
+    text-decoration: none;
+
+
+
+
+
+
+    cursor: pointer;
+
+
+
+
+
+
+    color: #696969;
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.usercenter-main .right_2 .redhistory li span {
+
+
+
+
+
+
+    color: #808080;
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    float: right;
+
+
+
+
+
+
+    right: 22px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.usercenter-main .biao_t {
+
+
+
+
+
+
+    color: #5b5b5b;
+
+
+
+
+
+
+    font-size: 18px;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    border-bottom: 2px #7ec14e solid;
+
+
+
+
+
+
+    padding-bottom: 10px;
+
+
+
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+    font-family: "微软雅黑";
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.usercenter-main .bia {
+
+
+
+
+
+
+    color: #5b5b5b;
+
+
+
+
+
+
+    font-size: 18px;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    border-bottom: 2px #7ec14e solid;
+
+
+
+
+
+
+    padding-bottom: 10px;
+
+
+
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+    font-family: "微软雅黑";
+
+
+
+
+
+
+    border: 1px red solid;
+
+
+
+
+
+
+    margin-top: 20px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.usercenter-main .biao_t strong {
+
+
+
+
+
+
+    color: #7ec14e;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.usercenter-main .biao_t .more {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    float: right;
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    width: 32px;
+
+
+
+
+
+
+    height: 20px;
+
+
+
+
+
+
+    line-height: 20px;
+
+
+
+
+
+
+    color: #4c4c4c;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    border: 1px #4c4c4c solid;
+
+
+
+
+
+
+    border-radius: 20px;
+
+
+
+
+
+
+    padding: 0px 0px 0px 20px;
+
+
+
+
+
+
+    top: 2px;
+
+
+
+
+
+
+    right: 10px;
+
+
+
+
+
+
+    background-image: url(../../images/activit/shi_07.jpg);
+
+
+
+
+
+
+    background-repeat: no-repeat;
+
+
+
+
+
+
+    background-position: 6px 4px;
+
+
+
+
+
+
+    background-size: 10px 10px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.usercenter-main .biao_t .guashi {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    float: right;
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    width: 32px;
+
+
+
+
+
+
+    height: 20px;
+
+
+
+
+
+
+    line-height: 20px;
+
+
+
+
+
+
+    color: #4c4c4c;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    border: 1px #4c4c4c solid;
+
+
+
+
+
+
+    border-radius: 20px;
+
+
+
+
+
+
+    padding: 0px 6px 0px 14px;
+
+
+
+
+
+
+    top: 2px;
+
+
+
+
+
+
+    right: 10px;
+
+
+
+
+
+
+    cursor: pointer;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.usercenter-main .finance {
+
+
+
+
+
+
+    width: 360px;
+
+
+
+
+
+
+    height: 306px;
+
+
+
+
+
+
+    margin-top: 10px;
+
+
+
+
+
+
+    overflow-x: hidden;
+
+
+
+
+
+
+    overflow-y: auto;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.usercenter-main .gengduo {
+
+
+
+
+
+
+    width: 56px;
+
+
+
+
+
+
+    height: 19px;
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    color: #4c4c4c;
+
+
+
+
+
+
+    line-height: 19px;
+
+
+
+
+
+
+    border: 1px gray solid;
+
+
+
+
+
+
+    border-radius: 20px;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    left: 160px;
+
+
+
+
+
+
+    top: -29px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.usercenter-main .gengduo img {
+
+
+
+
+
+
+    margin-top: 2px;
+
+
+
+
+
+
+    margin-right: 5px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.usercenter-main .norecord {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    color: #5b5b5b;
+
+
+
+
+
+
+    height: 350px;
+
+
+
+
+
+
+    padding-top: 150px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.usercenter-main .norecord a {
+
+
+
+
+
+
+    color: #7ec14e;
+
+
+
+
+
+
+    font-size: 18px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.resource-ful {
+
+
+
+
+
+
+    padding-top: 50px;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+    display: inline-block;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.resource-ful .title {
+
+
+
+
+
+
+    font-weight: normal;
+
+
+
+
+
+
+    margin-top: 30px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.resource-ful .item {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    display: inline-block;
+
+
+
+
+
+
+    list-style: none;
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+    padding-left: 20px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.resource-ful .item li {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    color: #5c5c5c;
+
+
+
+
+
+
+    line-height: 30px;
+
+
+
+
+
+
+    opacity: 0.9;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    width: 190px;
+
+
+
+
+
+
+    margin-right: 40px;
+
+
+
+
+
+
+    margin-top: 10px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.username-img {
+
+
+
+
+
+
+    margin-top: 20px;
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.username-img li:first-child {
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    color: #5b5b5b;
+
+
+
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+    /* margin-left: 40px; */
+
+
+
+
+
+
+    margin-left: 20px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.username-img li:first-child img {
+
+
+
+
+
+
+    left: 0px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.username-img>div {
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.username-img ul li {
+
+
+
+
+
+
+    /* float: left; */
+
+
+
+
+
+
+    height: 50px;
+
+
+
+
+
+
+    line-height: 70px;
+
+
+
+
+
+
+    /* margin-right: 8px; */
+
+
+
+
+
+
+    width: auto;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    height: 60px;
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    margin-right: 10px;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    margin-left: 10px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.recommend {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    display: inline-block;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+    margin-top: 50px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.comments_record li:first-child p {
+
+
+
+
+
+
+    padding-left: 40px;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    margin: 0 auto;
+
+
+
+
+
+
+    margin-top: -30px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.comments_record li:first-child p strong {
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    color: #5b5b5b;
+
+
+
+
+
+
+    margin-left: -5px;
+
+
+
+
+
+
+    margin-right: 5px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.recommend .recommend_title {
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+    height: 30px;
+
+
+
+
+
+
+    border-bottom: 2px #7ec14e solid;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    color: #808080;
+
+
+
+
+
+
+    line-height: 30px;
+
+
+
+
+
+
+    margin-bottom: 25px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.recommend .recommend_title span {
+
+
+
+
+
+
+    margin-right: 30px;
+
+
+
+
+
+
+    cursor: pointer;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.recommend .recommend_title span.active,
+
+
+
+
+
+
+.recommend .recommend_title span a {
+
+
+
+
+
+
+    font-size: 18px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.recommend .recommend_title span.active,
+
+
+
+
+
+
+.recommend .recommend_title span.active a {
+
+
+
+
+
+
+    color: #7ec14e;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.recommend .recommend_rows {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    display: inline-block;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.recommend .recommend_rows li {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.recommend .recommend_rows>ul>li {
+
+
+
+
+
+
+    margin-top: 20px;
+
+
+
+
+
+
+    margin-bottom: 20px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.recommend .recommend_rows li .leftimg {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    width: 173px;
+
+
+
+
+
+
+    padding-left: 30px;
+
+
+
+
+
+
+    padding-right: 30px;
+
+
+
+
+
+
+    height: 240px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.recommend .recommend_rows li .rightinfo {
+
+
+
+
+
+
+    width: 910px;
+
+
+
+
+
+
+    height: 240px;
+
+
+
+
+
+
+    float: right;
+
+
+
+
+
+
+    padding-left: 40px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.recommend .recommend_rows li .rightinfo li {
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    line-height: 25px;
+
+
+
+
+
+
+    margin-right: 5px;
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    color: #808080;
+
+
+
+
+
+
+    overflow: hidden;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.recommend .recommend_rows li .rightinfo li span {
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    color: #808080;
+
+
+
+
+
+
+    line-height: 25px;
+
+
+
+
+
+
+    margin-right: 5px;
+
+
+
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.recommend .recommend_rows li .rightinfo .name {
+
+
+
+
+
+
+    font-size: 30px;
+
+
+
+
+
+
+    color: #4c4c4c;
+
+
+
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+    margin-bottom: 10px;
+
+
+
+
+
+
+    line-height: 45px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.recommend .recommend_rows li .rightinfo .name a {
+
+
+
+
+
+
+    font-size: 30px;
+
+
+
+
+
+
+    color: #4c4c4c;
+
+
+
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.recommend .recommend_rows li .rightinfo li p {
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    color: #808080;
+
+
+
+
+
+
+    line-height: 20px;
+
+
+
+
+
+
+    float: right;
+
+
+
+
+
+
+    width: 860px;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    overflow: hidden;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.borrow {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.borrow .title {
+
+
+
+
+
+
+    font-weight: normal;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.borrow>li {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    width: 580px;
+
+
+
+
+
+
+    height: 248px;
+
+
+
+
+
+
+    margin-top: 40px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.borrow>li:nth-child(odd),
+
+
+
+
+
+
+.borrow>li.odd {
+
+
+
+
+
+
+    margin-right: 40px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.borrow-ul>li {
+
+
+
+
+
+
+    width: 580px;
+
+
+
+
+
+
+    height: 35px;
+
+
+
+
+
+
+    line-height: 35px;
+
+
+
+
+
+
+    color: #5b5b5b;
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    background: #f7f7f7;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.borrow-ul>li a {
+
+
+
+
+
+
+    color: #5b5b5b;
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.borrow-ul>li span {
+
+
+
+
+
+
+    width: 20px;
+
+
+
+
+
+
+    height: 20px;
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    color: white;
+
+
+
+
+
+
+    background-color: #b3b3b3;
+
+
+
+
+
+
+    display: inline-block;
+
+
+
+
+
+
+    line-height: 20px;
+
+
+
+
+
+
+    border-radius: 50px;
+
+
+
+
+
+
+    text-align: center;
+
+
+
+
+
+
+    margin-right: 10px;
+
+
+
+
+
+
+    margin-left: 15px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.borrow-ul>li span.hot {
+
+
+
+
+
+
+    background-color: #f16c41;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.borrow-ul>li.title {
+
+
+
+
+
+
+    background: none;
+
+
+
+
+
+
+    width: 580px;
+
+
+
+
+
+
+    height: 30px;
+
+
+
+
+
+
+    color: #7ec14e;
+
+
+
+
+
+
+    font-size: 18px;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    border-bottom: 2px #dedede solid;
+
+
+
+
+
+
+    margin-bottom: 10px;
+
+
+
+
+
+
+    padding-left: 0px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.borrow-ul>li:nth-child(odd),
+
+
+
+
+
+
+.borrow-ul>li.odd {
+
+
+
+
+
+
+    background: none;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.all-borrow {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.all-borrow li {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.all-borrow-ul {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.all-borrow-ul li {
+
+
+
+
+
+
+    width: 50%;
+
+
+
+
+
+
+    height: 35px;
+
+
+
+
+
+
+    line-height: 35px;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    color: #5b5b5b;
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    background: none;
+
+
+
+
+
+
+    
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.all-borrow-ul li.title {
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+    height: 30px;
+
+
+
+
+
+
+    margin-top: 10px;
+
+
+
+
+
+
+    color: #7ec14e;
+
+
+
+
+
+
+    font-size: 18px;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    border-bottom: 2px #dedede solid;
+
+
+
+
+
+
+    padding-left:15px;
+
+
+
+
+
+
+    background: #f7f7f7;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.all-borrow-ul li a {
+
+
+
+
+
+
+    font-style: normal;
+
+
+
+
+
+
+    color: #5b5b5b;
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**����*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*??????*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rili_1 {
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+    height: 700px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bir_t {
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+    height: 79px;
+
+
+
+
+
+
+    background-color: #f7f7f7;
+
+
+
+
+
+
+    padding-top: 4px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bir_t:hover {
+
+
+
+
+
+
+    transform: scale(1.01);
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bir_t h1 {
+
+
+
+
+
+
+    list-style-type: disc;
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    color: #282828;
+
+
+
+
+
+
+    padding-left: 25px;
+
+
+
+
+
+
+    padding-right: 25px;
+
+
+
+
+
+
+    white-space: nowrap;
+
+
+
+
+
+
+    text-overflow: ellipsis;
+
+
+
+
+
+
+    overflow: hidden;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bir_t h1 a {
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    color: #282828;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bir_t p {
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    color: #5b5b5b;
+
+
+
+
+
+
+    padding-top: 10px;
+
+
+
+
+
+
+    padding-left: 25px;
+
+
+
+
+
+
+    padding-right: 25px;
+
+
+
+
+
+
+    padding-bottom: 10px;
+    
+    width:560px;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+border-b {
+
+
+
+
+
+
+    border-bottom: 2px #7ec14e solid;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*?????*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rili_g {
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+    height: 630px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.kkso {
+
+
+
+
+
+
+    width: 600px;
+
+
+
+
+
+
+    height: 95px;
+
+
+
+
+
+
+    margin-top: 20px;
+
+
+
+
+
+
+    border-bottom: 1px #cacaca solid;
+
+
+
+
+
+
+    overflow: hidden;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.kkso_1 {
+
+
+
+
+
+
+    width: 600px;
+
+
+
+
+
+
+    height: 95px;
+
+
+
+
+
+
+    margin-top: 20px;
+
+
+
+
+
+
+    overflow: hidden;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.backg_1 {
+
+
+
+
+
+
+    color: gray;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.backg_2 {
+
+
+
+
+
+
+    color: #ffffff;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*******************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+
+
+
+
+
+
+    margin: 0;
+
+
+
+
+
+
+    padding: 0;
+
+
+
+
+
+
+    list-style-type: none;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+a,
+
+
+
+
+
+
+img {
+
+
+
+
+
+
+    border: 0;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* diy_select */
+
+
+
+
+
+
+
+
+
+
+
+
+
+.diy_select {
+
+
+
+
+
+
+    width: 175px;
+
+
+
+
+
+
+    height: 64px;
+
+
+
+
+
+
+    margin-right: 5px;
+
+
+
+
+
+
+    color: #000;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    border-right: 1px #ffffff solid;
+
+
+
+
+
+
+    -webkit-border-radius: 4px;
+
+
+
+
+
+
+    -moz-border-radius: 4px;
+
+
+
+
+
+
+    border-radius: 4px;
+
+
+
+
+
+
+    background-color: #FFFBE8;
+
+
+
+
+
+
+    cursor: pointer;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    left: 30px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.diy_select_btn,
+
+
+
+
+
+
+.diy_select_txt {
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    height: 100%;
+
+
+
+
+
+
+    line-height: 63px;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.diy_select,
+
+
+
+
+
+
+.diy_select_list {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.select-text {
+
+
+
+
+
+
+    height: 63px;
+
+
+
+
+
+
+    width: 175px;
+
+
+
+
+
+
+    background-color: #bee0a6;
+
+
+
+
+
+
+    /*;background: url('images/xiala_03.png') no-repeat;*/
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.diy_select_txt {
+
+
+
+
+
+
+    width: 175px;
+
+
+
+
+
+
+    color: white;
+
+
+
+
+
+
+    font-size: 26px;
+
+
+
+
+
+
+    line-height: 63px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.diy_select_txt a {
+
+
+
+
+
+
+    color: white;
+
+
+
+
+
+
+    font-size: 26px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.diy_select_txt,
+
+
+
+
+
+
+.diy_select_list li {
+
+
+
+
+
+
+    text-indent: 10px;
+
+
+
+
+
+
+    overflow: hidden;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.diy_select_btn {
+
+
+
+
+
+
+    width: 20%;
+
+
+
+
+
+
+    /*background: url(select_log.png) no-repeat center;*/
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.select-option {
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.diy_select_list {
+
+
+
+
+
+
+    position: absolute;
+
+
+
+
+
+
+    top: 63px;
+
+
+
+
+
+
+    left: -1px;
+
+
+
+
+
+
+    z-index: 88888;
+
+
+
+
+
+
+    border-top: none;
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+    display: none;
+
+
+
+
+
+
+    background: #fff;
+
+
+
+
+
+
+    overflow: auto;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.diy_select_list li {
+
+
+
+
+
+
+    margin: 0 20px;
+
+
+
+
+
+
+    list-style: none;
+
+
+
+
+
+
+    height: 50px;
+
+
+
+
+
+
+    line-height: 50px;
+
+
+
+
+
+
+    cursor: default;
+
+
+
+
+
+
+    background: #fff;
+
+
+
+
+
+
+    border-bottom: 1px solid #b3b3b3;
+
+
+
+
+
+
+    color: #bee0a6;
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.diy_select_list li.focus {
+
+
+
+
+
+
+    margin: 0;
+
+
+
+
+
+
+    padding: 0 20px;
+
+
+
+
+
+
+    cursor: pointer;
+
+
+
+
+
+
+    background: #bee0a6;
+
+
+
+
+
+
+    color: #fff
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes myfirsts {
+
+
+
+
+
+
+    0% {
+
+
+
+
+
+
+        left: -40px;
+
+
+
+
+
+
+        top: 0px;
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+    25% {
+
+
+
+
+
+
+        left: 20px;
+
+
+
+
+
+
+        top: 0px;
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+    50% {
+
+
+
+
+
+
+        left: 10px;
+
+
+
+
+
+
+        top: 0px;
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+    /*50%  {background:blue; left:20px; top:20px;}
+
+
+
+
+
+
+    75%  {background:green; left:0px; top:20px;}
+
+
+
+
+
+
+    100% {background:red; left:0px; top:0px;}*/
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@-moz-keyframes myfirsts
+
+
+
+
+
+
+/* Firefox */
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+
+
+
+
+
+
+    0% {
+
+
+
+
+
+
+        left: -40px;
+
+
+
+
+
+
+        top: 0px;
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+    25% {
+
+
+
+
+
+
+        left: 20px;
+
+
+
+
+
+
+        top: 0px;
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+    50% {
+
+
+
+
+
+
+        left: 10px;
+
+
+
+
+
+
+        top: 0px;
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+    /* 50%  {background:blue; left:20px; top:20px;}
+
+
+
+
+
+
+     75%  {background:green; left:0px; top:20px;}
+
+
+
+
+
+
+     100% {background:red; left:0px; top:0px;}*/
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@-webkit-keyframes myfirsts
+
+
+
+
+
+
+/* Safari and Chrome */
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+
+
+
+
+
+
+    0% {
+
+
+
+
+
+
+        left: -40px;
+
+
+
+
+
+
+        top: 0px;
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+    25% {
+
+
+
+
+
+
+        left: 20px;
+
+
+
+
+
+
+        top: 0px;
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+    50% {
+
+
+
+
+
+
+        left: 10px;
+
+
+
+
+
+
+        top: 0px;
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+    /*50%  {background:blue; left:20px; top:20px;}
+
+
+
+
+
+
+    75%  {background:green; left:0px; top:20px;}
+
+
+
+
+
+
+    100% {background:red; left:0px; top:0px;}*/
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@-o-keyframes myfirsts
+
+
+
+
+
+
+/* Opera */
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+
+
+
+
+
+
+    0% {
+
+
+
+
+
+
+        left: -40px;
+
+
+
+
+
+
+        top: 0px;
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+    25% {
+
+
+
+
+
+
+        left: 20px;
+
+
+
+
+
+
+        top: 0px;
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+    50% {
+
+
+
+
+
+
+        left: 10px;
+
+
+
+
+
+
+        top: 0px;
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+    /*50%  {background:blue; left:20px; top:20px;}
+
+
+
+
+
+
+    75%  {background:green; left:0px; top:20px;}
+
+
+
+
+
+
+    100% {background:red; left:0px; top:0px;}*/
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***������ʽ***/
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rili_second_right_yin {
+
+
+
+
+
+
+    width: 200px;
+
+
+
+
+
+
+    height: 150px;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    /*margin-left:70px;*/
+
+
+
+
+
+
+    margin-top: 34px;
+
+
+
+
+
+
+    margin-bottom: 34px;
+
+
+
+
+
+
+    border-radius: 5px;
+
+
+
+
+
+
+    opacity: 0.85;
+
+
+
+
+
+
+    /*background-color:#ffffff;*/
+
+
+
+
+
+
+    background-color: gray;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    top: -540px;
+
+
+
+
+
+
+    left: 400px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rili_second_right_yin:hover {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.kksos {
+
+
+
+
+
+
+    width: 200px;
+
+
+
+
+
+
+    height: 10px;
+
+
+
+
+
+
+    margin-top: 20px;
+
+
+
+
+
+
+    border-bottom: 1px #cacaca solid;
+
+
+
+
+
+
+    overflow: hidden;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.kksos_1 {
+
+
+
+
+
+
+    width: 200px;
+
+
+
+
+
+
+    height: 10px;
+
+
+
+
+
+
+    margin-top: 20px;
+
+
+
+
+
+
+    overflow: hidden;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rili_second_right ul .space:first-child {
+
+
+
+
+
+
+    margin-top: 20px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.space {
+
+
+
+
+
+
+    width: 545px;
+
+
+
+
+
+
+    height: 100px;
+
+
+
+
+
+
+    margin-top: 10px;
+
+
+
+
+
+
+    letter-spacing: 1px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.space h1 {
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+    color: #2d2d2d;
+
+
+
+
+
+
+    padding-left: 20px;
+
+
+
+
+
+
+    margin-top: 15px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.space h1 span {
+
+
+
+
+
+
+    color: gray;
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    font-weight: normal;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.space p {
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    color: #666666;
+
+
+
+
+
+
+    padding-top: 10px;
+
+
+
+
+
+
+    text-indent: 10px;
+
+
+
+
+
+
+    line-height: 22px;
+
+
+
+
+
+
+    overflow: hidden;
+
+
+
+
+
+
+    padding-right: 20px;
+
+
+
+
+
+
+    padding-left: 20px;
+
+
+
+
+
+
+    height: 40px;
+
+
+
+
+
+
+    overflow: hidden;
+
+
+
+
+
+
+    margin-top: 6px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.space spec {
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    width: 4px;
+
+
+
+
+
+
+    height: 25px;
+
+
+
+
+
+
+    background: #7ec14e;
+
+
+
+
+
+
+    margin-right: 10px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rili_second_right ul li:not(:last-child) {
+
+
+
+
+
+
+    border-bottom: 1px gray solid;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************************************************************************************************************************��Դ************************************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+
+
+
+
+
+
+    text-align: center;
+
+
+
+
+
+
+    font-family: "����", arial;
+
+
+
+
+
+
+    margin: 0;
+
+
+
+
+
+
+    padding: 0;
+
+
+
+
+
+
+    background: #FFF;
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    color: #000;
+
+
+
+
+
+
+    overflow-x: scroll;
+
+
+
+
+
+
+    overflow: -Scroll;
+
+
+
+
+
+
+    overflow-x: hidden;
+
+
+
+
+
+
+    overflow-y: hidden
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+div,
+
+
+
+
+
+
+form,
+
+
+
+
+
+
+img,
+
+
+
+
+
+
+ul,
+
+
+
+
+
+
+ol,
+
+
+
+
+
+
+li,
+
+
+
+
+
+
+dl,
+
+
+
+
+
+
+dt,
+
+
+
+
+
+
+dd {
+
+
+
+
+
+
+    margin: 0;
+
+
+
+
+
+
+    padding: 0;
+
+
+
+
+
+
+    border: 0;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+li {
+
+
+
+
+
+
+    list-style-type: none;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+img {
+
+
+
+
+
+
+    vertical-align: top;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+html {
+
+
+
+
+
+
+    overflow-x: hidden
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fen_nei {
+
+
+
+
+
+
+    width: 1200px;
+
+
+
+
+
+
+    height: 50px;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fen_nei_1 {
+
+
+
+
+
+
+    width: 1200px;
+
+
+
+
+
+
+    height: 30px;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.resources_title {
+
+
+
+
+
+
+    font-size: 18px;
+
+
+
+
+
+
+    color: #4c4c4c;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.font-title {
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    color: #808080;
+
+
+
+
+
+
+    margin-left: 54px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dan {
+
+
+
+
+
+
+    margin-left: 193px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#er_1 {
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    color: #7ec14e
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#xian_bu {
+
+
+
+
+
+
+    margin-left: 20px;
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    color: #808080;
+
+
+
+
+
+
+    margin-left: 54px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#fen_nei_1_1 {
+
+
+
+
+
+
+    margin-bottom: 30px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shu_1 {
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shu {
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    margin-left: 47px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#shuji {
+
+
+
+
+
+
+    width: 1200px;
+
+
+
+
+
+
+    height: 451px;
+
+
+
+
+
+
+    padding-top: 32px;
+
+
+
+
+
+
+    border-top: 2px #7ec14e solid;
+
+
+
+
+
+
+    margin-top: 8px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#shuji_1 {
+
+
+
+
+
+
+    width: 1200px;
+
+
+
+
+
+
+    height: 451px;
+
+
+
+
+
+
+    padding-top: 32px;
+
+
+
+
+
+
+    margin-top: 10px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.selec_1 {
+
+
+
+
+
+
+    width: 120px;
+
+
+
+
+
+
+    float: right;
+
+
+
+
+
+
+    background-image: url(../../images/resources/xiajiand_07.png);
+
+
+
+
+
+
+    background-position: right;
+
+
+
+
+
+
+    background-repeat: no-repeat;
+
+
+
+
+
+
+    border: none;
+
+
+
+
+
+
+    appearance: none;
+
+
+
+
+
+
+    -moz-appearance: none;
+
+
+
+
+
+
+    -webkit-appearance: none;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.jiao_1 {
+
+
+
+
+
+
+    background-color: #f1f1f1;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.jiao_2 {
+
+
+
+
+
+
+    background-color: #d2f1bc;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.prouance {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    left: 125px;
+
+
+
+
+
+
+    cursor: pointer;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.jianjie {
+
+
+
+
+
+
+    color: #4c4c4c;
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    width: 200px;
+
+
+
+
+
+
+    text-indent: 10px;
+
+
+
+
+
+
+    margin-top: 5px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.duanluo {
+
+
+
+
+
+
+    width: 200px;
+
+
+
+
+
+
+    height: 90px;
+
+
+
+
+
+
+    overflow: hidden;
+
+
+
+
+
+
+    z-index: 200;
+
+
+
+
+
+
+    position: absolute;
+
+
+
+
+
+
+    background-color: white;
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    line-height: 15px;
+
+
+
+
+
+
+    padding-left: 2px;
+
+
+
+
+
+
+    border: 1px #dedede solid;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************************************************************************************************************�******************************************************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+
+
+
+
+
+
+    text-align: center;
+
+
+
+
+
+
+    font-family: "????", arial;
+
+
+
+
+
+
+    margin: 0;
+
+
+
+
+
+
+    padding: 0;
+
+
+
+
+
+
+    background: #FFF;
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    color: #000;
+
+
+
+
+
+
+    overflow-x: scroll;
+
+
+
+
+
+
+    overflow: -Scroll;
+
+
+
+
+
+
+    overflow-x: hidden;
+
+
+
+
+
+
+    overflow-y: hidden
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+div,
+
+
+
+
+
+
+form,
+
+
+
+
+
+
+img,
+
+
+
+
+
+
+ul,
+
+
+
+
+
+
+ol,
+
+
+
+
+
+
+li,
+
+
+
+
+
+
+dl,
+
+
+
+
+
+
+dt,
+
+
+
+
+
+
+dd {
+
+
+
+
+
+
+    margin: 0;
+
+
+
+
+
+
+    padding: 0;
+
+
+
+
+
+
+    border: 0;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+li {
+
+
+
+
+
+
+    list-style-type: none;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+img {
+
+
+
+
+
+
+    vertical-align: top;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+html {
+
+
+
+
+
+
+    overflow-x: hidden
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1,
+
+
+
+
+
+
+h2,
+
+
+
+
+
+
+h3,
+
+
+
+
+
+
+h4,
+
+
+
+
+
+
+h5,
+
+
+
+
+
+
+h6 {
+
+
+
+
+
+
+    margin: 0;
+
+
+
+
+
+
+    padding: 0;
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    font-weight: normal;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header {
+
+
+
+
+
+
+    height: 140px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header_1 {
+
+
+
+
+
+
+    height: 70px;
+
+
+
+
+
+
+    width: 1200px;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header_2 {
+
+
+
+
+
+
+    height: 70px;
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+    font-size: 18px;
+
+
+
+
+
+
+    line-height: 70px;
+
+
+
+
+
+
+    padding-left: 80px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header_3 {
+
+
+
+
+
+
+    width: 30px;
+
+
+
+
+
+
+    height: 70px;
+
+
+
+
+
+
+    margin-left: 100px;
+
+
+
+
+
+
+    font-family: "??????";
+
+
+
+
+
+
+    font-size: 18px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#line {
+
+
+
+
+
+
+    width: 40px;
+
+
+
+
+
+
+    height: 80px;
+
+
+
+
+
+
+    border: 1px gray solid;
+
+
+
+
+
+
+    border-radius: 10px;
+
+
+
+
+
+
+    -moz-border-radius: 10px;
+
+
+
+
+
+
+    -webkit-border-radius: 10px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*???????*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*banner????*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+.kkso {
+
+
+
+
+
+
+    width: 500px;
+
+
+
+
+
+
+    height: 100px;
+
+
+
+
+
+
+    margin-top: 10px;
+
+
+
+
+
+
+    letter-spacing: 1px;
+
+
+
+
+
+
+    border-bottom: 1px gray solid;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wen {
+
+
+
+
+
+
+    height: 36px;
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    color: #4c4c4c;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    text-indent: 5px;
+
+
+
+
+
+
+    line-height: 36px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.gen {
+
+
+
+
+
+
+    width: 40px;
+
+
+
+
+
+
+    height: 20px;
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    color: #4c4c4c;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    border: 1px #4c4c4c solid;
+
+
+
+
+
+
+    border-radius: 20px;
+
+
+
+
+
+
+    padding: 2px 5px 2px 5px;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    left: 870px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ying {
+
+
+
+
+
+
+    background-color: #f7f7f7;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********************************************************************************************************����**********************************************************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hao {
+
+
+
+
+
+
+    width: 20px;
+
+
+
+
+
+
+    height: 20px;
+
+
+
+
+
+
+    background-color: #f16c41;
+
+
+
+
+
+
+    line-height: 20px;
+
+
+
+
+
+
+    border-radius: 50px;
+
+
+
+
+
+
+    color: white;
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.yi {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    top: -259px;
+
+
+
+
+
+
+    left: -118px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ers {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    top: -223px;
+
+
+
+
+
+
+    left: -118px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sans {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    top: -188px;
+
+
+
+
+
+
+    left: -118px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sis {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    top: -152px;
+
+
+
+
+
+
+    left: -118px;
+
+
+
+
+
+
+    background-color: #b2b2b2;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wus {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    top: -119px;
+
+
+
+
+
+
+    left: -118px;
+
+
+
+
+
+
+    background-color: #b2b2b2;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.daohang {
+
+
+
+
+
+
+    width: 876px;
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    color: #808080;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    height: 30px;
+
+
+
+
+
+
+    line-height: 30px;
+
+
+
+
+
+
+    border-bottom: 2px #7dc44c solid;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.daohang span:not(:first-child) {
+
+
+
+
+
+
+    margin-left: 30px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.daohang span:last-child {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    left: 544px;
+
+
+
+
+
+
+    border: 1px #808080 solid;
+
+
+
+
+
+
+    border-radius: 20px;
+
+
+
+
+
+
+    height: 25px;
+
+
+
+
+
+
+    padding: 1px 3px 2px 3px;
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shizi {
+
+
+
+
+
+
+    margin: 9px 5px 0 5px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.circle {
+
+
+
+
+
+
+    text-align: center;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.circle a {
+
+
+
+
+
+
+    width: 4px;
+
+
+
+
+
+
+    height: 4px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dao_bottom {
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+    height: 4px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dao_bottom span {
+
+
+
+
+
+
+    background-color: #00FF00;
+
+
+
+
+
+
+    margin-left: 20px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.yuan {
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+    height: 40px;
+
+
+
+
+
+
+    padding-left: 396px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.yuan li {
+
+
+
+
+
+
+    width: 6px;
+
+
+
+
+
+
+    height: 6px;
+
+
+
+
+
+
+    background-color: #808080;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    margin-left: 8px;
+
+
+
+
+
+
+    margin-top: 10px;
+
+
+
+
+
+
+    border-radius: 58px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.yuan li:hover {
+
+
+
+
+
+
+    background-color: #7dc44c;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hr {
+
+
+
+
+
+
+    border-top: 2px solid #7ec14e;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#more {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    left: 706px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#new_book {
+
+
+
+
+
+
+    font-size: 18px;
+
+
+
+
+
+
+    color: #7dc44c;
+
+
+
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.more_shi {
+
+
+
+
+
+
+    margin: 10px 5px 0 5px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#line_head {
+
+
+
+
+
+
+    border-bottom: 2px #e5e5e5 solid;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#more_service {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    left: 670px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.service_book {
+
+
+
+
+
+
+    width: 876px;
+
+
+
+
+
+
+    margin-top: 10px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.service_book li {
+
+
+
+
+
+
+    width: 876px;
+
+
+
+
+
+
+    height: 40px;
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    color: #4c4c4c;
+
+
+
+
+
+
+    line-height: 40px;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    padding-left: 15px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.color_li {
+
+
+
+
+
+
+    background-color: #f7f7f7;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#more_service_1 {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    left: 670px;
+
+
+
+
+
+
+    display: none;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.publish {
+
+
+
+
+
+
+    width: 876px;
+
+
+
+
+
+
+    height: 225px;
+
+
+
+
+
+
+}
+.publish .title{
+	/*margin-bottom:0;
+	padding-bottom:0;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.publish_left {
+
+
+
+
+
+
+    width: 422px;
+
+
+
+
+
+
+    height: 210px;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    margin-top: 15px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.publish_right {
+
+
+
+
+
+
+    width: 422px;
+
+
+
+
+
+
+    height: 210px;
+
+
+
+
+
+
+    float: right;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.publish_left_1 {
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.publish_left_2 {
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    width: 226px;
+
+
+
+
+
+
+    margin-left: 20px;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.publish_left_2 ul li:first-child {
+
+
+
+
+
+
+    font-size: 18px;
+
+
+
+
+
+
+    color: #4c4c4c;
+
+
+
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+    margin-top: -5px;
+
+
+
+
+
+
+    margin-bottom: 10px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.publish_left_2 ul li:first-child a {
+
+
+
+
+
+
+    font-size: 18px;
+
+
+
+
+
+
+    color: #4c4c4c;
+
+
+
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.publish_left_2 ul li p {
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    color: #4c4c4c;
+
+
+
+
+
+
+    text-indent: 20px;
+
+
+
+
+
+
+    width: 250px;
+
+
+
+
+
+
+    height: 130px;
+
+
+
+
+
+
+    overflow: hidden;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.publish_left_2 ul li:last-child {
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    background-color: #7ec14e;
+
+
+
+
+
+
+    color: #ffffff;
+
+
+
+
+
+
+    float: right;
+
+
+
+
+
+
+    border-radius: 50px;
+
+
+
+
+
+
+    padding: 5px 28px 5px 28px;
+
+
+
+
+
+
+    margin-top: 10px;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    left: 25px;
+
+
+
+
+
+
+    top: 7px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.publish_left_2 ul li a {
+
+
+
+
+
+
+    color: #ffffff;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lefts {
+
+
+
+
+
+
+    margin-left: 26px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.line {
+
+
+
+
+
+
+    width: 1px;
+
+
+
+
+
+
+    height: 60px;
+
+
+
+
+
+
+    border-left: 1px #b4b4b4 solid;
+
+
+
+
+
+
+    transform: rotate(20deg);
+
+
+
+
+
+
+    opacity: 0.9;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.boot_a {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    top: -226px;
+
+
+
+
+
+
+    left: -384px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.boot_b {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    top: -286px;
+
+
+
+
+
+
+    left: -152px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.boot_c {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    top: -346px;
+
+
+
+
+
+
+    left: 118px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.boot_d {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    top: -406px;
+
+
+
+
+
+
+    left: 345px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*****************************************************************************************************************��Ѷ*************************************************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+.gen_1 {
+
+
+
+
+
+
+    width: 40px;
+
+
+
+
+
+
+    height: 20px;
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    color: #4c4c4c;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    left: 258px;
+
+
+
+
+
+
+    border: 1px #4c4c4c solid;
+
+
+
+
+
+
+    border-radius: 20px;
+
+
+
+
+
+
+    padding: 2px 5px 2px 5px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.huodong {
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    margin-left: 32px;
+
+
+
+
+
+
+    width: 276px;
+
+
+
+
+
+
+    height: 50px;
+
+
+
+
+
+
+    padding-top: 10px;
+
+
+
+
+
+
+    margin-top: 10px;
+
+
+
+
+
+
+    border-top: 1px #7cc14a solid;
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    font-family: '΢���ź�';
+
+
+
+
+
+
+    color: #666666;
+
+
+
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+    background-color: #f7f7f7;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.huodong_1 {
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    width: 276px;
+
+
+
+
+
+
+    height: 50px;
+
+
+
+
+
+
+    padding-top: 10px;
+
+
+
+
+
+
+    margin-top: 10px;
+
+
+
+
+
+
+    border-top: 1px #7cc14a solid;
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    font-family: '΢���ź�';
+
+
+
+
+
+
+    color: #666666;
+
+
+
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+    background-color: #f7f7f7;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fang {
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    font-family: '΢���ź�';
+
+
+
+
+
+
+    height: 40px;
+
+
+
+
+
+
+    line-height: 40px;
+
+
+
+
+
+
+    color: #4c4c4c;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    text-indent: 20px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ne {
+
+
+
+
+
+
+    background-color: #f7f7f7;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.luntan {
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    font-family: '΢���ź�';
+
+
+
+
+
+
+    height: 40px;
+
+
+
+
+
+
+    line-height: 40px;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    text-indent: 20px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.media_left {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    top: 11px;
+
+
+
+
+
+
+    left: 3px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.media_right {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    top: 11px;
+
+
+
+
+
+
+    left: -2px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.media_left_1 {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    top: 11px;
+
+
+
+
+
+
+    left: 3px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.media_right_1 {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    top: 11px;
+
+
+
+
+
+
+    left: -2px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.save {
+
+
+
+
+
+
+    width: 40px;
+
+
+
+
+
+
+    height: 20px;
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    color: #4c4c4c;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    left: 532px;
+
+
+
+
+
+
+    border: 1px #4c4c4c solid;
+
+
+
+
+
+
+    border-radius: 20px;
+
+
+
+
+
+
+    padding: 2px 5px 2px 5px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hao {
+
+
+
+
+
+
+    width: 20px;
+
+
+
+
+
+
+    height: 20px;
+
+
+
+
+
+
+    background-color: #f16c41;
+
+
+
+
+
+
+    line-height: 20px;
+
+
+
+
+
+
+    border-radius: 50px;
+
+
+
+
+
+
+    color: white;
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.yi {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    top: -259px;
+
+
+
+
+
+
+    left: -118px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ers {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    top: -223px;
+
+
+
+
+
+
+    left: -118px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sans {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    top: -188px;
+
+
+
+
+
+
+    left: -118px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sis {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    top: -152px;
+
+
+
+
+
+
+    left: -118px;
+
+
+
+
+
+
+    background-color: #b2b2b2;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wus {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    top: -119px;
+
+
+
+
+
+
+    left: -118px;
+
+
+
+
+
+
+    background-color: #b2b2b2;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.daohang {
+
+
+
+
+
+
+    width: 876px;
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    color: #808080;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    height: 30px;
+
+
+
+
+
+
+    line-height: 30px;
+
+
+
+
+
+
+    border-bottom: 2px #7dc44c solid;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.daohang span:not(:first-child) {
+
+
+
+
+
+
+    margin-left: 30px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.daohang span:last-child {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    left: 544px;
+
+
+
+
+
+
+    border: 1px #808080 solid;
+
+
+
+
+
+
+    border-radius: 20px;
+
+
+
+
+
+
+    height: 25px;
+
+
+
+
+
+
+    padding: 1px 3px 2px 3px;
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shizi {
+
+
+
+
+
+
+    margin: 9px 5px 0 5px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.circle {
+
+
+
+
+
+
+    text-align: center;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.circle a {
+
+
+
+
+
+
+    width: 4px;
+
+
+
+
+
+
+    height: 4px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dao_bottom {
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+    height: 4px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dao_bottom span {
+
+
+
+
+
+
+    background-color: #00FF00;
+
+
+
+
+
+
+    margin-left: 20px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hr {
+
+
+
+
+
+
+    border-top: 2px solid #7ec14e;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#more {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    left: 706px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#new_book {
+
+
+
+
+
+
+    font-size: 18px;
+
+
+
+
+
+
+    color: #7dc44c;
+
+
+
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.more_shi {
+
+
+
+
+
+
+    margin: 10px 5px 0 5px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#line_head {
+
+
+
+
+
+
+    border-bottom: 2px #e5e5e5 solid;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#more_service {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    left: 670px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.service_book {
+
+
+
+
+
+
+    width: 876px;
+
+
+
+
+
+
+    margin-top: 10px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.service_book li {
+
+
+
+
+
+
+    width: 876px;
+
+
+
+
+
+
+    height: 40px;
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    color: #4c4c4c;
+
+
+
+
+
+
+    line-height: 40px;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.color_li {
+
+
+
+
+
+
+    background-color: #f7f7f7;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#more_service_1 {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    left: 670px;
+
+
+
+
+
+
+    display: none;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.publish {
+
+
+
+
+
+
+    width: 876px;
+
+
+
+
+
+
+    height: 225px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.publish_left {
+
+
+
+
+
+
+    width: 422px;
+
+
+
+
+
+
+    height: 210px;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    margin-top: 15px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.publish_right {
+
+
+
+
+
+
+    width: 422px;
+
+
+
+
+
+
+    height: 210px;
+
+
+
+
+
+
+    float: right;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.publish_left_1 {
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.publish_left_2 {
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    width: 226px;
+
+
+
+
+
+
+    margin-left: 20px;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.publish_left_2 ul li:first-child {
+
+
+
+
+
+
+    font-size: 18px;
+
+
+
+
+
+
+    color: #4c4c4c;
+
+
+
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+    margin-top: -5px;
+
+
+
+
+
+
+    margin-bottom: 10px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.publish_left_2 ul li p {
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    color: #4c4c4c;
+
+
+
+
+
+
+    text-indent: 20px;
+
+
+
+
+
+
+    width: 250px;
+
+
+
+
+
+
+    height: 130px;
+
+
+
+
+
+
+    overflow: hidden;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.publish_left_2 ul li:last-child {
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    background-color: #7ec14e;
+
+
+
+
+
+
+    color: #ffffff;
+
+
+
+
+
+
+    float: right;
+
+
+
+
+
+
+    border-radius: 50px;
+
+
+
+
+
+
+    padding: 5px 28px 5px 28px;
+
+
+
+
+
+
+    margin-top: 10px;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    left: 25px;
+
+
+
+
+
+
+    top: 7px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.publish_left_2 ul li a {
+
+
+
+
+
+
+    color: #ffffff;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lefts {
+
+
+
+
+
+
+    margin-left: 26px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.score {
+
+
+
+
+
+
+    color: #808080;
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.top {
+
+
+
+
+
+
+    margin-top: 40px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********************************************************************************************************************��������forgetPassword************************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ?????? */
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+
+
+
+
+
+
+    text-align: center;
+
+
+
+
+
+
+    font-family: "????", arial;
+
+
+
+
+
+
+    margin: 0;
+
+
+
+
+
+
+    padding: 0;
+
+
+
+
+
+
+    background: #FFF;
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    color: #000;
+
+
+
+
+
+
+    overflow-x: scroll;
+
+
+
+
+
+
+    overflow: -Scroll;
+
+
+
+
+
+
+    overflow-x: hidden;
+
+
+
+
+
+
+    overflow-y: hidden
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+div,
+
+
+
+
+
+
+form,
+
+
+
+
+
+
+img,
+
+
+
+
+
+
+ul,
+
+
+
+
+
+
+ol,
+
+
+
+
+
+
+li,
+
+
+
+
+
+
+dl,
+
+
+
+
+
+
+dt,
+
+
+
+
+
+
+dd {
+
+
+
+
+
+
+    margin: 0;
+
+
+
+
+
+
+    padding: 0;
+
+
+
+
+
+
+    border: 0;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+li {
+
+
+
+
+
+
+    list-style-type: none;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+img {
+
+
+
+
+
+
+    vertical-align: top;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+html {
+
+
+
+
+
+
+    overflow-x: hidden
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1,
+
+
+
+
+
+
+h2,
+
+
+
+
+
+
+h3,
+
+
+
+
+
+
+h4,
+
+
+
+
+
+
+h5,
+
+
+
+
+
+
+h6 {
+
+
+
+
+
+
+    margin: 0;
+
+
+
+
+
+
+    padding: 0;
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    font-weight: normal;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header {
+
+
+
+
+
+
+    height: 150px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bg {
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+    /*height: 1080px;*/
+
+
+
+
+
+
+    background-image: url("../../images/login/banner.jpg");
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logo {
+
+
+
+
+
+
+    width: 1200px;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    left: -350px;
+
+
+
+
+
+
+    top: 10px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+input:-webkit-autofill {
+
+
+
+
+
+
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+
+
+
+
+
+
+    border-bottom: 1px solid #dedede;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.code {
+
+
+
+
+
+
+    /*background: url(../../images/login/code.png);*/
+
+
+
+
+
+
+    font-family: Arial;
+
+
+
+
+
+
+    font-style: italic;
+
+
+
+
+
+
+    color: blue;
+
+
+
+
+
+
+    font-size: 26px;
+
+
+
+
+
+
+    border: 0;
+
+
+
+
+
+
+    padding: 2px;
+
+
+
+
+
+
+    letter-spacing: 3px;
+
+
+
+
+
+
+    font-weight: bolder;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    cursor: pointer;
+
+
+
+
+
+
+    width: 80px;
+
+
+
+
+
+
+    height: 28px;
+
+
+
+
+
+
+    line-height: 28px;
+
+
+
+
+
+
+    text-align: center;
+
+
+
+
+
+
+    vertical-align: middle;
+
+
+
+
+
+
+    float: right;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    left: 142px;
+
+
+
+
+
+
+    top: 34px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.code_1 {
+
+
+
+
+
+
+    background: url(../../images/login/code.png);
+
+
+
+
+
+
+    font-family: Arial;
+
+
+
+
+
+
+    font-style: italic;
+
+
+
+
+
+
+    color: blue;
+
+
+
+
+
+
+    font-size: 26px;
+
+
+
+
+
+
+    border: 0;
+
+
+
+
+
+
+    padding: 2px;
+
+
+
+
+
+
+    letter-spacing: 3px;
+
+
+
+
+
+
+    font-weight: bolder;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    cursor: pointer;
+
+
+
+
+
+
+    width: 80px;
+
+
+
+
+
+
+    height: 28px;
+
+
+
+
+
+
+    line-height: 28px;
+
+
+
+
+
+
+    text-align: center;
+
+
+
+
+
+
+    vertical-align: middle;
+
+
+
+
+
+
+    float: right;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    left: 142px;
+
+
+
+
+
+
+    top: -4px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+a {
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    color: #888;
+
+
+
+
+
+
+    text-decoration: none;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+a:hover {
+
+
+
+
+
+
+    color: #888;
+
+
+
+
+
+
+    text-decoration: none;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.zhong {
+
+
+
+
+
+
+    width: 1200px;
+
+
+
+
+
+
+    height: 500px;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    top: 20px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.neirong {
+
+
+
+
+
+
+    width: 800px;
+
+
+
+
+
+
+    height: 500px;
+
+
+
+
+
+
+    background-color: white;
+
+
+
+
+
+
+    border-radius: 5px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.forget {
+
+
+
+
+
+
+    font-size: 24px;
+
+
+
+
+
+
+    color: #7ec14e;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    top: 20px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form li {
+
+
+
+
+
+
+    color: #5b5b5b;
+
+
+
+    font-size: 16px;
+
+
+    font-weight: bolder;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#wangji .form li:last-child a {
+
+
+
+
+
+
+    color: #5b5b5b;
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    border: 1px gray solid;
+
+
+
+
+
+
+    border-radius: 50px;
+
+
+
+
+
+
+    padding: 3px 8px 3px 8px;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    top: -40px;
+
+
+
+
+
+
+    left: 130px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form li span {
+
+
+
+
+
+
+    color: red;
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    font-weight: bolder;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.top {
+
+
+
+
+
+
+    margin-top: 50px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fei {
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    color: #f01313;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    left: 230px;
+
+
+
+
+
+
+    top: -38px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.yan {
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    color: #ffffff;
+
+
+
+
+
+
+    border: 1px #4c4c4c solid;
+
+
+
+
+
+
+    border-radius: 10px;
+
+
+
+
+
+
+    width: 80px;
+
+
+
+
+
+
+    height: 20px;
+
+
+
+
+
+
+    line-height: 18px;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    top: -42px;
+
+
+
+
+
+
+    left: 120px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.yan_1 {
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    color: #ffffff;
+
+
+
+
+
+
+    border: 1px #4c4c4c solid;
+
+
+
+
+
+
+    border-radius: 10px;
+
+
+
+
+
+
+    width: 80px;
+
+
+
+
+
+
+    height: 20px;
+
+
+
+
+
+
+    line-height: 20px;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    top: -122px;
+
+
+
+
+
+
+    left: 120px;
+
+
+
+
+
+
+    font-weight: normal;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form li input {
+
+
+
+
+
+
+    appearance: none;
+
+
+
+
+
+
+    -moz-appearance: none;
+
+
+
+
+
+
+    /* Firefox */
+
+
+
+
+
+
+    -webkit-appearance: none;
+
+
+
+
+
+
+    /* Safari and Chrome */
+
+
+
+
+
+
+    border: none;
+
+
+
+
+
+
+    outline: none;
+
+
+
+
+
+
+    /*����߿�ȥ��*/
+
+
+
+
+
+
+    border-bottom: 1px #dedede solid;
+
+
+
+
+
+
+    color: #5b5b5b;
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    width: 254px;
+
+
+
+
+
+
+    line-height: 20px;
+
+
+
+
+
+
+    margin-left: 10px;
+
+
+
+
+
+
+    padding-bottom: 2px;
+
+
+
+
+
+
+    opacity: 0.7;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.chong {
+
+
+
+
+
+
+    border-radius: 20px;
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    color: #ffffff;
+
+
+
+
+
+
+    background-color: #7ec14e;
+
+
+
+
+
+
+    height: 30px;
+
+
+
+
+
+
+    width: 100px;
+
+
+
+
+
+
+    line-height: 30px;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    left: 300px;
+
+
+
+
+
+
+    top: -35px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.chong_1 {
+
+
+
+
+
+
+    border-radius: 20px;
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    color: #ffffff;
+
+
+
+
+
+
+    background-color: #7ec14e;
+
+
+
+
+
+
+    height: 30px;
+
+
+
+
+
+
+    width: 100px;
+
+
+
+
+
+
+    line-height: 30px;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    left: 300px;
+
+
+
+
+
+
+    top: 0px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.kang {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    left: 70px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#forget_yan {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    left: 20px;
+
+
+
+
+
+
+    top: 70px;
+
+
+
+
+
+
+    border: 1px #dedede solid;
+
+
+
+
+
+
+    width: 100px;
+
+
+
+
+
+
+    height: 28px;
+
+
+
+
+
+
+    border-radius: 5px;
+
+
+
+
+
+
+    outline: none;
+
+
+
+
+
+
+    text-align: center;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#yu {
+
+
+
+
+
+
+    border: none;
+
+
+
+
+
+
+    margin-left: 42px;
+
+
+
+
+
+
+    border-radius: 5px;
+
+
+
+
+
+
+    text-align: center;
+
+
+
+
+
+
+    border: 1px #dedede solid;
+
+
+
+
+
+
+    margin-top: 20px;
+
+
+
+
+
+
+    width: 110px;
+
+
+
+
+
+
+    height: 28px;
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    color: #5b5b5b;
+
+
+
+
+
+
+    -webkit-appearance: none;
+
+
+
+
+
+
+    -moz-appearance: none;
+
+
+
+
+
+
+    appearance: none;
+
+
+
+
+
+
+    outline: none;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    top: 38px;
+
+
+
+
+
+
+    left: -200px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********ע��ҳ����ʾ��ʽ************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tishi {
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    color: #f01313;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.yii {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    left: 450px;
+
+
+
+
+
+
+    top: -300px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.err {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    left: 355px;
+
+
+
+
+
+
+    top: -256px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sann {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    left: 236px;
+
+
+
+
+
+
+    top: -174px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sii {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    left: 164px;
+
+
+
+
+
+
+    top: -86px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#code {
+
+
+
+
+
+
+    color: #4c4c4c;
+
+
+
+
+
+
+    font-weight: normal;
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    margin-top: -12px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+��
+
+
+
+
+
+
+/****************************************************************************************************************��¼login*****************************************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ?????? */
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+
+
+
+
+
+
+    text-align: center;
+
+
+
+
+
+
+    font-family: "????", arial;
+
+
+
+
+
+
+    margin: 0;
+
+
+
+
+
+
+    padding: 0;
+
+
+
+
+
+
+    background: #FFF;
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    color: #000;
+
+
+
+
+
+
+    overflow-x: scroll;
+
+
+
+
+
+
+    overflow: -Scroll;
+
+
+
+
+
+
+    overflow-x: hidden;
+
+
+
+
+
+
+    overflow-y: hidden
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+div,
+
+
+
+
+
+
+form,
+
+
+
+
+
+
+img,
+
+
+
+
+
+
+ul,
+
+
+
+
+
+
+ol,
+
+
+
+
+
+
+li,
+
+
+
+
+
+
+dl,
+
+
+
+
+
+
+dt,
+
+
+
+
+
+
+dd {
+
+
+
+
+
+
+    margin: 0;
+
+
+
+
+
+
+    padding: 0;
+
+
+
+
+
+
+    border: 0;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+li {
+
+
+
+
+
+
+    list-style-type: none;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+img {
+
+
+
+
+
+
+    vertical-align: top;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+html {
+
+
+
+
+
+
+    overflow-x: hidden
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1,
+
+
+
+
+
+
+h2,
+
+
+
+
+
+
+h3,
+
+
+
+
+
+
+h4,
+
+
+
+
+
+
+h5,
+
+
+
+
+
+
+h6 {
+
+
+
+
+
+
+    margin: 0;
+
+
+
+
+
+
+    padding: 0;
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    font-weight: normal;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header {
+
+
+
+
+
+
+    height: 150px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bg {
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+    height: 1080px;
+
+
+
+
+
+
+    background-image: url("../../images/login/banner.jpg");
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logo {
+
+
+
+
+
+
+    width: 1200px;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    left: -350px;
+
+
+
+
+
+
+    top: 10px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ima {
+
+
+
+
+
+
+    margin-top: 0;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.login {
+
+
+
+
+
+
+    margin-top: 78px;
+
+
+
+
+
+
+    width: 250px;
+
+
+
+
+
+
+    height: 36px;
+
+
+
+
+
+
+    font-size: 24px;
+
+
+
+
+
+
+    color: #7ec14e;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+input:-webkit-autofill {
+
+
+
+
+
+
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+
+
+
+
+
+
+    border-bottom: 1px solid #dedede;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#username,
+
+
+
+
+
+
+#userID {
+
+
+
+
+
+
+    border: none;
+
+
+
+
+
+
+    border-bottom: 1px #dedede solid;
+
+
+
+
+
+
+    margin-top: 50px;
+
+
+
+
+
+
+    width: 250px;
+
+
+
+
+
+
+    height: 36px;
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    color: #5b5b5b;
+
+
+
+
+
+
+    opacity: 0.7;
+
+
+
+
+
+
+    appearance: none;
+
+
+
+
+
+
+    outline: none;
+
+
+
+
+
+
+    background-color: #ffffff;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#password {
+
+
+
+
+
+
+    border: none;
+
+
+
+
+
+
+    border-bottom: 1px #dedede solid;
+
+
+
+
+
+
+    margin-top: 10px;
+
+
+
+
+
+
+    width: 250px;
+
+
+
+
+
+
+    height: 36px;
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    color: #5b5b5b;
+
+
+
+
+
+
+    -webkit-appearance: none;
+
+
+
+
+
+
+    -moz-appearance: none;
+
+
+
+
+
+
+    background-color: #ffffff;
+
+
+
+
+
+
+    appearance: none;
+
+
+
+
+
+
+    outline: none;
+
+
+
+
+
+
+
+
+
+
+
+
+    opacity: 0.7;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#login_yan {
+
+
+
+
+
+
+    border: none;
+
+
+
+
+
+
+    margin-left: -140px;
+
+
+
+
+
+
+    border-radius: 5px;
+
+
+
+
+
+
+    text-align: center;
+
+
+
+
+
+
+    border: 1px #dedede solid;
+
+
+
+
+
+
+    margin-top: 20px;
+
+
+
+
+
+
+    width: 110px;
+
+
+
+
+
+
+    height: 28px;
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    color: #5b5b5b;
+
+
+
+
+
+
+    -webkit-appearance: none;
+
+
+
+
+
+
+    -moz-appearance: none;
+
+
+
+
+
+
+    appearance: none;
+
+
+
+
+
+
+    outline: none;
+
+
+
+
+
+
+    color: #bfbfbf;
+
+
+
+
+
+
+    opacity: 0.7;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    left: 40px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.login_forget {
+
+
+
+
+
+
+    margin-bottom: 0px;
+
+
+
+
+
+
+    margin-top: 45px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.codeL {
+
+
+
+
+
+
+    background: url(../../images/login/code.png);
+
+
+
+
+
+
+    font-family: Arial;
+
+
+
+
+
+
+    font-style: italic;
+
+
+
+
+
+
+    color: blue;
+
+
+
+
+
+
+    font-size: 26px;
+
+
+
+
+
+
+    border: 0;
+
+
+
+
+
+
+    padding: 2px;
+
+
+
+
+
+
+    letter-spacing: 3px;
+
+
+
+
+
+
+    font-weight: bolder;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    cursor: pointer;
+
+
+
+
+
+
+    width: 80px;
+
+
+
+
+
+
+    height: 28px;
+
+
+
+
+
+
+    line-height: 28px;
+
+
+
+
+
+
+    text-align: center;
+
+
+
+
+
+
+    vertical-align: middle;
+
+
+
+
+
+
+    float: right;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    left: 70px;
+
+
+
+
+
+
+    top: -40px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.kan {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    left: 70px;
+
+
+
+
+
+
+    top: -30px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fir {
+
+
+
+
+
+
+    margin-top: 279px;
+
+
+
+
+
+
+    font-size: 18px;
+
+
+
+
+
+
+    color: #ffffff;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sec {
+
+
+
+
+
+
+    margin-top: 24px;
+
+
+
+
+
+
+    font-size: 18px;
+
+
+
+
+
+
+    color: #ffffff;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.three {
+
+
+
+
+
+
+    margin-top: 96px;
+
+
+
+
+
+
+    font-size: 18px;
+
+
+
+
+
+
+    color: #ffffff;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tishi {
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    color: #f01313;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.firq {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    left: 106px;
+
+
+
+
+
+
+    top: -236px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.firw {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    right: -30px;
+
+
+
+
+
+
+    bottom: 190px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+.fire {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    bottom: 100px;
+
+
+
+
+
+
+    left: -67px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.login_code {
+
+
+
+
+    position: relative;
+    left: 38px;
+    top: 0px;
+    width: 85px;
+    height: 33px;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn_login {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.yanj_1,
+
+
+
+
+
+
+.yanj_2 {
+
+
+
+
+
+
+    position: absolute;
+
+
+
+
+
+
+    top: 244px;
+
+
+
+
+
+
+    right: 140px;
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.kks {
+
+
+
+
+
+
+    width: 804px;
+
+
+
+
+
+
+    height: 500px;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    top: -500px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.kksi {
+
+
+
+
+
+
+    width: 400px;
+
+
+
+
+
+
+    height: 500px;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    left: -200px;
+
+
+
+
+
+
+    border-radius: 5px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************************************************************************************************************��������personalInfor********************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ?????? */
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+
+
+
+
+
+
+    text-align: center;
+
+
+
+
+
+
+    font-family: "????", arial;
+
+
+
+
+
+
+    margin: 0;
+
+
+
+
+
+
+    padding: 0;
+
+
+
+
+
+
+    background: #FFF;
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    color: #000;
+
+
+
+
+
+
+    overflow-x: scroll;
+
+
+
+
+
+
+    overflow: -Scroll;
+
+
+
+
+
+
+    overflow-x: hidden;
+
+
+
+
+
+
+    overflow-y: hidden
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+div,
+
+
+
+
+
+
+form,
+
+
+
+
+
+
+img,
+
+
+
+
+
+
+ul,
+
+
+
+
+
+
+ol,
+
+
+
+
+
+
+li,
+
+
+
+
+
+
+dl,
+
+
+
+
+
+
+dt,
+
+
+
+
+
+
+dd {
+
+
+
+
+
+
+    margin: 0;
+
+
+
+
+
+
+    padding: 0;
+
+
+
+
+
+
+    border: 0;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+li {
+
+
+
+
+
+
+    list-style-type: none;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+img {
+
+
+
+
+
+
+    vertical-align: top;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+html {
+
+
+
+
+
+
+    overflow-x: hidden
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1,
+
+
+
+
+
+
+h2,
+
+
+
+
+
+
+h3,
+
+
+
+
+
+
+h4,
+
+
+
+
+
+
+h5,
+
+
+
+
+
+
+h6 {
+
+
+
+
+
+
+    margin: 0;
+
+
+
+
+
+
+    padding: 0;
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    font-weight: normal;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header_1 {
+
+
+
+
+
+
+    height: 70px;
+
+
+
+
+
+
+    width: 1200px;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header_2 {
+
+
+
+
+
+
+    height: 70px;
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+    font-size: 18px;
+
+
+
+
+
+
+    line-height: 70px;
+
+
+
+
+
+
+    padding-left: 80px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header_3 {
+
+
+
+
+
+
+    width: 30px;
+
+
+
+
+
+
+    height: 70px;
+
+
+
+
+
+
+    margin-left: 100px;
+
+
+
+
+
+
+    font-family: "΢���ź�";
+
+
+
+
+
+
+    font-size: 18px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.san {
+
+
+
+
+
+
+    color: #7ec14e;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.zhu {
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    color: #5b5b5b;
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    line-height: 25px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.zhu span {
+
+
+
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+    font-family: "΢���ź�";
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+
+
+
+
+
+
+.kuai{
+
+
+
+
+
+
+    border-bottom:1px #dedede solid;padding:10px 0 10px 5px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+.kuai_1{
+
+
+
+
+
+
+    padding:10px 0 10px 5px;
+
+
+
+
+
+
+}**/
+
+
+
+
+
+
+
+
+
+
+
+
+
+.youbian {
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.toop {
+
+
+
+
+
+
+    margin-top: 30px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.jin {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    left: 210px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.xiaozi {
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    color: #808080;
+
+
+
+
+
+
+    margin-left: 20px;
+
+
+
+
+
+
+    font-weight: normal;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.xiaozi_wei {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    left: 86px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wushu {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    top: 190px;
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    color: #5b5b5b;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wushu a {
+
+
+
+
+
+
+    color: #7ec14e;
+
+
+
+
+
+
+    font-size: 18px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wushu a:hover {
+
+
+
+
+
+
+    color: #7ec14e;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************************************************************personalNone 个人中心无借阅信息************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shequ {
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+    height: 110px;
+
+
+
+
+
+
+    margin-top: 25px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.usercenter-main .left_1 .shequ ul:first-child {
+
+
+
+
+
+
+    border-bottom: none;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shequ ul:first-child {
+
+
+
+
+
+
+    border-bottom: none;
+
+
+
+
+
+
+    width: 20%;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shequ ul:last-child {
+
+
+
+
+
+
+    width: 70%;
+
+
+
+
+
+
+    float: right;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shequ ul:last-child span:first-child {
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    color: #5b5b5b;
+
+
+
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shequ ul:last-child span:nth-last-child(2) {
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    color: #808080;
+
+
+
+
+
+
+    margin-left: 20px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shequ ul:last-child span:nth-last-child(1) {
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    color: #808080;
+
+
+
+
+
+
+    margin-left: 80px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shequ ul:last-child li:not(:first-child) {
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    color: #808080;
+
+
+
+
+
+
+    margin-top: 8px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shequ ul:last-child p {
+
+
+
+
+
+
+    width: 80px;
+
+
+
+
+
+
+    height: 30px;
+
+
+
+
+
+
+    line-height: 30px;
+
+
+
+
+
+
+    text-align: center;
+
+
+
+
+
+
+    border-radius: 20px;
+
+
+
+
+
+
+    background-color: #7ec14e;
+
+
+
+
+
+
+    color: white;
+
+
+
+
+
+
+    float: right;
+
+
+
+
+
+
+    display: block;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.finance ul:first-child {
+
+
+
+
+
+
+    border-bottom: 1px #dedede solid;
+
+
+
+
+
+
+    padding-bottom: 15px;
+
+
+
+
+
+
+    margin-bottom: 15px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************************************************************资讯-党群工作 informationPartjob******************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dis {
+
+
+
+
+
+
+    display: none;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.guize ul {
+
+
+
+
+
+
+    margin-top: 40px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.guize ul li:first-child {
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    padding-left: 40px;
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    color: #5c5c5c;
+
+
+
+
+
+
+    line-height: 30px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.guize ul li:not(:first-child) {
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    padding-left: 50px;
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    color: #5c5c5c;
+
+
+
+
+
+
+    line-height: 35px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.job {
+
+
+
+
+
+
+    width: 1200px;
+
+
+
+
+
+
+  /*  height: 900px;*/
+
+
+
+
+
+
+    margin-top: 87px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.job_left {
+
+
+
+
+
+
+    width: 280px;
+
+
+
+
+
+
+    /*height: 800px;*/
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.job_left ul li {
+
+
+
+
+
+
+    cursor: pointer;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.job_left p {
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    font-size: 18px;
+
+
+
+
+
+
+    color: #ffffff;
+
+
+
+
+
+
+    height: 52px;
+
+
+
+
+
+
+    line-height: 52px;
+
+
+
+
+
+
+    background-color: #484848;
+
+
+
+
+
+
+    border-radius: 5px;
+
+
+
+
+
+
+    padding-left: 20px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.job_left li {
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    height: 52px;
+
+
+
+
+
+
+    line-height: 52px;
+
+
+
+
+
+
+    padding-left: 20px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.job_left li:not(:last-child) {
+
+
+
+
+
+
+    border-bottom: 1px #dedede solid;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.job_right {
+
+
+
+
+
+
+    width: 880px;
+
+
+
+
+
+
+    /*height: 800px;*/
+
+
+
+
+
+
+    float: right;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.job_right>p:first-child {
+
+
+
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+    font-size: 18px;
+
+
+
+
+
+
+    color: #7dc44c;
+
+
+
+
+
+
+    line-height: 70px;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    height: 52px;
+
+
+
+
+
+
+    border-bottom: 1px #dedede solid;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .job_right p:not(:first-child) { */
+
+
+
+
+
+
+
+
+
+
+
+
+
+.job_right p {
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    color: #5c5c5c;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    text-indent: 30px;
+
+
+
+
+
+
+    line-height: 30px;
+
+
+
+
+
+
+    margin-top: 20px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************************************************读书指南readingGuide-------办证指南******************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+.man {
+
+
+
+
+
+
+    width: 1200px;
+
+
+
+
+
+
+    display: inline-block;
+
+
+
+
+
+
+    margin-top: 87px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.man_left {
+
+
+
+
+
+
+    width: 280px;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.man_left ul li {
+
+
+
+
+
+
+    cursor: pointer;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.man_left p {
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    font-size: 18px;
+
+
+
+
+
+
+    color: #ffffff;
+
+
+
+
+
+
+    height: 52px;
+
+
+
+
+
+
+    line-height: 52px;
+
+
+
+
+
+
+    background-color: #484848;
+
+
+
+
+
+
+    border-radius: 5px;
+
+
+
+
+
+
+    padding-left: 20px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.man_left li {
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    line-height: 52px;
+
+
+
+
+
+
+    padding-left: 20px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.man_left li:not(:last-child) {
+
+
+
+
+
+
+    border-bottom: 1px #dedede solid;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.man_right {
+
+
+
+
+
+
+    width: 880px;
+
+
+
+
+
+
+    float: right;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.man_right p:first-child {
+
+
+
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+    font-size: 18px;
+
+
+
+
+
+
+    color: #7dc44c;
+
+
+
+
+
+
+    line-height: 70px;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    height: 52px;
+
+
+
+
+
+
+    border-bottom: 1px #dedede solid;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.man_right p:not(:first-child) {
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    color: #5c5c5c;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    text-indent: 30px;
+
+
+
+
+
+
+    line-height: 30px;
+
+
+
+
+
+
+    margin-top: 20px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.guide {
+
+
+
+
+
+
+    width: 880px;
+
+
+
+
+
+
+    float: right;
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    line-height: 30px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.guide>p {
+
+
+
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+    font-size: 18px;
+
+
+
+
+
+
+    color: #7dc44c;
+
+
+
+
+
+
+    line-height: 70px;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    height: 52px;
+
+
+
+
+
+
+    border-bottom: 1px #dedede solid;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.read-guide {
+
+
+
+
+
+
+    margin-top: 10px;
+
+
+
+
+
+
+    margin-bottom: 30px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.read-guide h1 {
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    color: #5b5b5b;
+
+
+
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.read-guide>p {
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    color: #5b5b5b;
+
+
+
+
+
+
+    margin-top: 10px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.read-guide h2 {
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    color: #5b5b5b;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.read-guide ul li {
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    line-height: 10px;
+
+
+
+
+
+
+    color: #5b5b5b;
+
+
+
+
+
+
+    margin-left: 30px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shuo-ming {
+
+
+
+
+
+
+    width: 880px;
+
+
+
+
+
+
+    height: 410px;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shuo-ming>p {
+
+
+
+
+
+
+    width: 590px;
+
+
+
+
+
+
+    text-align: center;
+
+
+
+
+
+
+    font-size: 20px;
+
+
+
+
+
+
+    color: black;
+
+
+
+
+
+
+    margin-bottom: 50px;
+
+
+
+
+
+
+    margin-top: 20px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shuo-ming table tr:first-child {
+
+
+
+
+
+
+    color: #000000;
+
+
+
+
+
+
+    font-size: 18px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shuo-ming table tr:not(:first-child) {
+
+
+
+
+
+
+    color: gray;
+
+
+
+
+
+
+    font-size: 18px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shuo-ming table td:first-child {
+
+
+
+
+
+
+    border-width: 0 1px 1px 0;
+
+
+
+
+
+
+    border-style: solid;
+
+
+
+
+
+
+    border-color: black;
+
+
+
+
+
+
+    margin: 0px 0px;
+
+
+
+
+
+
+    width: 116px;
+
+
+
+
+
+
+    height: 124px;
+
+
+
+
+
+
+    text-align: center;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shuo-ming table td:nth-last-child(4) {
+
+
+
+
+
+
+    border-width: 0 1px 1px 0;
+
+
+
+
+
+
+    border-style: solid;
+
+
+
+
+
+
+    border-color: black;
+
+
+
+
+
+
+    margin: 0px 0px;
+
+
+
+
+
+
+    width: 74px;
+
+
+
+
+
+
+    height: 124px;
+
+
+
+
+
+
+    text-align: center;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shuo-ming table td:nth-last-child(3) {
+
+
+
+
+
+
+    border-width: 0 1px 1px 0;
+
+
+
+
+
+
+    border-style: solid;
+
+
+
+
+
+
+    border-color: black;
+
+
+
+
+
+
+    margin: 0px 0px;
+
+
+
+
+
+
+    width: 240px;
+
+
+
+
+
+
+    height: 124px;
+
+
+
+
+
+
+    text-align: center;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shuo-ming table td:nth-last-child(2) {
+
+
+
+
+
+
+    border-width: 0 1px 1px 0;
+
+
+
+
+
+
+    border-style: solid;
+
+
+
+
+
+
+    border-color: black;
+
+
+
+
+
+
+    margin: 0px 0px;
+
+
+
+
+
+
+    width: 50px;
+
+
+
+
+
+
+    height: 124px;
+
+
+
+
+
+
+    text-align: center;
+
+
+
+
+
+
+    color: #000000;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shuo-ming table td:nth-last-child(1) {
+
+
+
+
+
+
+    border-width: 0 1px 1px 0;
+
+
+
+
+
+
+    border-style: solid;
+
+
+
+
+
+
+    border-color: black;
+
+
+
+
+
+
+    margin: 0px 0px;
+
+
+
+
+
+
+    width: 104px;
+
+
+
+
+
+
+    height: 124px;
+
+
+
+
+
+
+    text-align: center;
+
+
+
+
+
+
+    color: #000000;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.line_table_1 {
+
+
+
+
+
+
+    width: 1px;
+
+
+
+
+
+
+    height: 150px;
+
+
+
+
+
+
+    border-right: 1px black solid;
+
+
+
+
+
+
+    transform: rotate(-32deg);
+
+
+
+
+
+
+    display: block;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    left: 81px;
+
+
+
+
+
+
+    top: -11px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.line_table_2 {
+
+
+
+
+
+
+    width: 1px;
+
+
+
+
+
+
+    height: 137px;
+
+
+
+
+
+
+    border-right: 1px black solid;
+
+
+
+
+
+
+    transform: rotate(-57deg);
+
+
+
+
+
+
+    display: block;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    left: 58px;
+
+
+
+
+
+
+    top: 18px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.first span:first-child {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    left: 50px;
+
+
+
+
+
+
+    top: -25px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.first span:nth-last-child(2) {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    left: -34px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.first span:last-child {
+
+
+
+
+
+
+    display: inline-block;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    left: -25px;
+
+
+
+
+
+
+    top: 26px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************************************************读书指南readingGuide-------服务时间*****************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+.man .man_left ul li.active {
+
+
+
+
+
+
+    color: #7dc44c;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.man .man_left ul li:hover {
+
+
+
+
+
+
+    color: #7f7f7f;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.time-service {
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.time-service table {
+
+
+
+
+
+
+    margin-top: 20px;
+
+
+
+
+
+
+    color: black;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.time-service table tr td {
+
+
+
+
+
+
+    border-right: 1px black solid;
+
+
+
+
+
+
+    border-bottom: 1px black solid;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hang_1 {
+
+
+
+
+
+
+    display: inline-block;
+
+
+
+
+
+
+    border-top: 1px black solid;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hang_1 td:first-child {
+
+
+
+
+
+
+    border-left: 1px black solid;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hang_1 td {
+
+
+
+
+
+
+    text-align: center;
+
+
+
+
+
+
+    height: 20px;
+
+
+
+
+
+
+    width: 319px;
+
+
+
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hang_2 {
+
+
+
+
+
+
+    display: inline-block;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hang_2 td:first-child {
+
+
+
+
+
+
+    text-align: center;
+
+
+
+
+
+
+    height: 180px;
+
+
+
+
+
+
+    width: 80px;
+
+
+
+
+
+
+    border-left: 1px black solid;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hang_2 td:nth-last-child(2) {
+
+
+
+
+
+
+    text-align: center;
+
+
+
+
+
+
+    width: 238px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hang_2 td:nth-last-child(1) {
+
+
+
+
+
+
+    text-align: center;
+
+
+
+
+
+
+    width: 320px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hang_3 {
+
+
+
+
+
+
+    display: inline-block;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hang_3 td:first-child {
+
+
+
+
+
+
+    text-align: center;
+
+
+
+
+
+
+    height: 180px;
+
+
+
+
+
+
+    width: 80px;
+
+
+
+
+
+
+    border-left: 1px black solid;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hang_3 td:nth-last-child(2) {
+
+
+
+
+
+
+    text-align: center;
+
+
+
+
+
+
+    width: 238px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hang_3 td:nth-last-child(1) {
+
+
+
+
+
+
+    text-align: center;
+
+
+
+
+
+
+    width: 320px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hang_4 {
+
+
+
+
+
+
+    display: inline-block;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hang_4 td:first-child {
+
+
+
+
+
+
+    text-align: center;
+
+
+
+
+
+
+    height: 100px;
+
+
+
+
+
+
+    width: 80px;
+
+
+
+
+
+
+    border-left: 1px black solid;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hang_4 td:nth-last-child(2) {
+
+
+
+
+
+
+    text-align: center;
+
+
+
+
+
+
+    width: 238px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hang_4 td:nth-last-child(1) {
+
+
+
+
+
+
+    text-align: center;
+
+
+
+
+
+
+    width: 320px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hang_5 {
+
+
+
+
+
+
+    display: inline-block;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hang_5 td:first-child {
+
+
+
+
+
+
+    text-align: center;
+
+
+
+
+
+
+    height: 100px;
+
+
+
+
+
+
+    width: 80px;
+
+
+
+
+
+
+    border-left: 1px black solid;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hang_5 td:nth-last-child(2) {
+
+
+
+
+
+
+    text-align: center;
+
+
+
+
+
+
+    width: 238px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hang_5 td:nth-last-child(1) {
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    width: 320px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hang_6 {
+
+
+
+
+
+
+    display: inline-block;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hang_6 td:first-child {
+
+
+
+
+
+
+    text-align: center;
+
+
+
+
+
+
+    height: 20px;
+
+
+
+
+
+
+    width: 80px;
+
+
+
+
+
+
+    border-left: 1px black solid;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hang_6 td:nth-last-child(2) {
+
+
+
+
+
+
+    text-align: center;
+
+
+
+
+
+
+    height: 20px;
+
+
+
+
+
+
+    width: 238px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hang_6 td:nth-last-child(1) {
+
+
+
+
+
+
+    text-align: center;
+
+
+
+
+
+
+    height: 20px;
+
+
+
+
+
+
+    width: 320px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shijian_hang li:first-child {
+
+
+
+
+
+
+    height: 20px;
+
+
+
+
+
+
+    line-height: 20px;
+
+
+
+
+
+
+    border-bottom: 1px black solid;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shijian_hang li:nth-last-child(3) {
+
+
+
+
+
+
+    height: 70px;
+
+
+
+
+
+
+    line-height: 70px;
+
+
+
+
+
+
+    border-bottom: 1px black solid;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shijian_hang li:nth-last-child(2) {
+
+
+
+
+
+
+    height: 20px;
+
+
+
+
+
+
+    line-height: 20px;
+
+
+
+
+
+
+    border-bottom: 1px black solid;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shijian_hang li:nth-last-child(1) {
+
+
+
+
+
+
+    height: 66px;
+
+
+
+
+
+
+    line-height: 66px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#kong li:nth-last-child(3) {
+
+
+
+
+
+
+    line-height: 20px;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#kong li:nth-last-child(1) {
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    line-height: 19px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wen_hang li:first-child {
+
+
+
+
+
+
+    height: 20px;
+
+
+
+
+
+
+    line-height: 20px;
+
+
+
+
+
+
+    border-bottom: 1px black solid;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wen_hang li:nth-last-child(3) {
+
+
+
+
+
+
+    height: 50px;
+
+
+
+
+
+
+    line-height: 20px;
+
+
+
+
+
+
+    border-bottom: 1px black solid;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wen_hang li:nth-last-child(2) {
+
+
+
+
+
+
+    height: 77px;
+
+
+
+
+
+
+    line-height: 77px;
+
+
+
+
+
+
+    border-bottom: 1px black solid;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wen_hang li:nth-last-child(1) {
+
+
+
+
+
+
+    height: 50px;
+
+
+
+
+
+
+    line-height: 50px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#han li:nth-last-child(3) {
+
+
+
+
+
+
+    text-align: center;
+
+
+
+
+
+
+    height: 50px;
+
+
+
+
+
+
+    line-height: 50px;
+
+
+
+
+
+
+    border-bottom: 1px black solid;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#han li:nth-last-child(2) {
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    height: 77px;
+
+
+
+
+
+
+    line-height: 20px;
+
+
+
+
+
+
+    border-bottom: 1px black solid;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#han li:nth-last-child(1) {
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    height: 50px;
+
+
+
+
+
+
+    line-height: 17px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sunday li:first-child {
+
+
+
+
+
+
+    height: 20px;
+
+
+
+
+
+
+    line-height: 20px;
+
+
+
+
+
+
+    border-bottom: 1px black solid;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sunday li:last-child {
+
+
+
+
+
+
+    height: 78px;
+
+
+
+
+
+
+    line-height: 78px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#dish li:last-child {
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    line-height: 20px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**交通指南*****/
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ma {
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+    border: 1px red solid;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.foot_map p {
+
+
+
+
+
+
+    font-size: 18px;
+
+
+
+
+
+
+    color: #5b5b5b;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    margin-top: 50px;
+
+
+
+
+
+
+    line-height: 30px;
+
+
+
+
+
+
+    margin-bottom: 80px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**读者须知*****/
+
+
+
+
+
+
+
+
+
+
+
+
+
+.reader-know {
+
+
+
+
+
+
+    margin-bottom: 10px;
+
+
+
+
+
+
+    margin-top: -10px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.reader-know li {
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    color: #5b5b5b;
+
+
+
+
+
+
+    height: 30px;
+
+
+
+
+
+
+    line-height: 30px;
+
+
+
+
+
+
+    border: none;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.reader-guize {
+
+
+
+
+
+
+    margin-bottom: 10px;
+
+
+
+
+
+
+    margin-top: -10px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.reader-guize li {
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    color: #5b5b5b;
+
+
+
+
+
+
+    height: 30px;
+
+
+
+
+
+
+    line-height: 30px;
+
+
+
+
+
+
+    border: none;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.man_left li .reader-know li {
+
+
+
+
+
+
+    border-bottom: none;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.man_left li .reader-know li:hover {
+
+
+
+
+
+
+    color: #7f7f7f;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.man_left li .reader-guize li {
+
+
+
+
+
+
+    border-bottom: none;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.man_left li .reader-guize li:hover {
+
+
+
+
+
+
+    color: #7f7f7f;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.man_left li img {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    top: 20px;
+
+
+
+
+
+
+    left: 180px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.guide .jieshao-1 {
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    color: #5b5b5b;
+
+
+
+
+
+
+    margin-top: 10px;
+
+
+
+
+
+
+    margin-bottom: 20px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.xuzhi {
+
+
+
+
+
+
+    margin-bottom: 40px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.xuzhi h2 {
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    color: #5b5b5b;
+
+
+
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+    opacity: 0.9;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    margin-bottom: 10px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.xuzhi h3 {
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    color: #5b5b5b;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    line-height: 20px;
+
+
+
+
+
+
+    padding-left: 30px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.xuzhi p {
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    color: #5b5b5b;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    line-height: 25px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.xuzhi table tr:first-child td {
+
+
+
+
+
+
+    width: 200px;
+
+
+
+
+
+
+    border-right: 1px black solid;
+
+
+
+
+
+
+    border-bottom: 1px black solid;
+
+
+
+
+
+
+    text-align: center;
+
+
+
+
+
+
+    line-height: 40px;
+
+
+
+
+
+
+    font-size: 18px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.xuzhi table tr:last-child td {
+
+
+
+
+
+
+    width: 200px;
+
+
+
+
+
+
+    border-right: 1px black solid;
+
+
+
+
+
+
+    border-bottom: 1px black solid;
+
+
+
+
+
+
+    text-align: center;
+
+
+
+
+
+
+    line-height: 40px;
+
+
+
+
+
+
+    font-size: 18px;
+
+
+
+
+
+
+    color: #5b5b5b;
+
+
+
+
+
+
+    font-weight: normal;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tab_xuzhi {
+
+
+
+
+
+
+    border-left: 1px black solid;
+
+
+
+
+
+
+    border-top: 1px black solid;
+
+
+
+
+
+
+    margin: 5px 210px 5px 0px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****借阅规则****/
+
+
+
+
+
+
+
+
+
+
+
+
+
+.guize p {
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    text-indent: 20px;
+
+
+
+
+
+
+    margin-bottom: 30px;
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    color: #5b5b5b;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************************************************************资讯-图书馆协会 informationAssociation******************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+.asso {
+
+
+
+
+
+
+    width: 1200px;
+
+
+
+
+
+
+    height: 800px;
+
+
+
+
+
+
+    margin-top: 87px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.asso_left {
+
+
+
+
+
+
+    width: 280px;
+
+
+
+
+
+
+    height: 800px;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.asso_left ul li {
+
+
+
+
+
+
+    cursor: pointer;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.asso_left p {
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    font-size: 18px;
+
+
+
+
+
+
+    color: #ffffff;
+
+
+
+
+
+
+    height: 52px;
+
+
+
+
+
+
+    line-height: 52px;
+
+
+
+
+
+
+    background-color: #484848;
+
+
+
+
+
+
+    border-radius: 5px;
+
+
+
+
+
+
+    padding-left: 20px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.asso_left li {
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    height: 52px;
+
+
+
+
+
+
+    line-height: 52px;
+
+
+
+
+
+
+    padding-left: 20px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.asso_left li:not(:last-child) {
+
+
+
+
+
+
+    border-bottom: 1px #dedede solid;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.asso_right {
+
+
+
+
+
+
+    width: 880px;
+
+
+
+
+
+
+    height: 800px;
+
+
+
+
+
+
+    float: right;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.asso_right h1 {
+
+
+
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+    font-size: 18px;
+
+
+
+
+
+
+    color: #7dc44c;
+
+
+
+
+
+
+    line-height: 70px;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    height: 52px;
+
+
+
+
+
+
+    border-bottom: 1px #dedede solid;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.association {
+
+
+
+
+
+
+    padding-top: 30px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.association p {
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    text-indent: 40px;
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    color: #5c5c5c;
+
+
+
+
+
+
+    margin-bottom: 20px;
+
+
+
+
+
+
+    line-height: 30px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.phoneAdd {
+
+
+
+
+
+
+    margin-top: 90px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.phoneAdd li {
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    padding-left: 40px;
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    color: #5c5c5c;
+
+
+
+
+
+
+    line-height: 35px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************************************************mistake 错误页面*******************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mistake {
+
+
+
+
+
+
+    width: 600px;
+
+
+
+
+
+
+    height: 300px;
+
+
+
+
+
+
+    border-top: 1px #f5f5f5 solid;
+
+
+
+
+
+
+    border-right: 2px #f5f5f5 solid;
+
+
+
+
+
+
+    background-color: #fafafa;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mistake p:first-child {
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    color: #4e4e4e;
+
+
+
+
+
+
+    text-align: right;
+
+
+
+
+
+
+    padding-right: 10px;
+
+
+
+
+
+
+    margin-top: 10px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mistake p:first-child img {
+
+
+
+
+
+
+    margin-top: 3px;
+
+
+
+
+
+
+    margin-right: 2px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mistake p:nth-last-child(5) {
+
+
+
+
+
+
+    font-size: 60px;
+
+
+
+
+
+
+    color: #7ec14e;
+
+
+
+
+
+
+    text-align: center;
+
+
+
+
+
+
+    margin-top: 10px;
+
+
+
+
+
+
+    margin-bottom: 20px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mistake p:nth-last-child(4),
+
+
+
+
+
+
+.mistake p:nth-last-child(3),
+
+
+
+
+
+
+.mistake p:nth-last-child(2),
+
+
+
+
+
+
+.mistake p:nth-last-child(1) {
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    color: #4e4e4e;
+
+
+
+
+
+
+    text-align: center;
+
+
+
+
+
+
+    line-height: 25px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************************************************webSearch 站内搜索*******************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+.website {
+
+
+
+
+
+
+    width: 1200px;
+
+
+
+
+
+
+    margin-top: 60px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.website>p {
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    color: #5b5b5b;
+
+
+
+
+
+
+    margin-bottom: 10px;
+
+
+
+
+
+
+    padding-bottom: 5px;
+
+
+
+
+
+
+    border-bottom: 1px #dedede solid;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.website>p em {
+
+
+
+
+
+
+    color: #dedede;
+
+
+
+
+
+
+    font-size: 24px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.website>div{
+
+
+
+
+
+
+    padding: 20px 20px 20px 20px;
+
+
+
+
+
+
+    border-bottom: 1px #dedede solid;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.website>div h1 {
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    color: #5b5b5b;
+
+
+
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+}
+.website>div h1 a {
+	font-size:14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.website>div h1 span {
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    color: gray;
+
+
+
+
+
+
+    margin-left: 60px;
+
+
+
+
+
+
+    text-align: right;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.website>div p {
+
+
+
+
+
+
+    text-indent: 20px;
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    color: #5b5b5b;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    overflow: hidden;
+
+
+
+
+
+
+    margin-top: 5px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#sortType {
+
+
+
+
+
+
+    border-radius: 6px;
+
+
+
+
+
+
+    border: solid 1px #bdbdbd;
+
+
+
+
+
+
+    appearance: none;
+
+
+
+
+
+
+    -moz-appearance: none;
+
+
+
+
+
+
+    -webkit-appearance: none;
+
+
+
+
+
+
+    padding-right: 14px;
+
+
+
+
+
+
+    padding-left: 8px;
+
+
+
+
+
+
+    background: url(http://ourjs.github.io/static/2015/arrow.png) no-repeat scroll right center transparent;
+
+
+
+
+
+
+    height: 35px;
+
+
+
+
+
+
+    line-height: 35px;
+
+
+
+
+
+
+    min-width: 100px;
+
+
+
+
+
+
+    color: #6f6f6f;
+
+
+
+
+
+
+    float: right;
+
+
+
+
+
+
+    text-align: center;
+
+
+
+
+
+
+    outline: none;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#sortType option {
+
+
+
+
+
+
+    width: 124px;
+
+
+
+
+
+
+    height: 50px;
+
+
+
+
+
+
+    color: #7ec14e;
+
+
+
+
+
+
+    border-bottom: 1px gray solid;
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+    cursor: pointer;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.yg {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    display: inline-block;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+    margin-top: 50px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.yg .yg_title {
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+    height: 30px;
+
+
+
+
+
+
+    border-bottom: 2px #7ec14e solid;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    color: #808080;
+
+
+
+
+
+
+    line-height: 30px;
+
+
+
+
+
+
+    margin-bottom: 5px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.yg .yg_title span {
+
+
+
+
+
+
+    margin-right: 30px;
+
+
+
+
+
+
+    cursor: pointer;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.yg .yg_title span a {
+
+
+
+
+
+
+    font-size: 18px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.yg .yg_title span.active,
+
+
+
+
+
+
+.yg .yg_title span.active a {
+
+
+
+
+
+
+    color: #7ec14e;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.yg_rows,
+
+
+
+
+
+
+.yg_rows>div>table {
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.yg_rows>div>table thead {
+
+
+
+
+
+
+    background: #c3c3c3;
+
+
+
+
+
+
+    color: #565656;
+
+
+
+
+
+
+    line-height: 40px;
+
+
+
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.yg_rows>div>table>tbody>tr,
+
+
+
+
+
+
+.yg_rows>div>table>tbody>tr a {
+
+
+
+
+
+
+    line-height: 35px;
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.yg_rows>div>table>tbody>tr:nth-child(odd) {
+
+
+
+
+
+
+    background: #f7f7f7;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.yg_rows>div>li {
+
+
+
+
+
+
+    margin-top: 20px;
+
+
+
+
+
+
+    margin-bottom: 20px;
+
+
+
+
+
+
+    height: 255px;
+
+
+
+
+
+
+    border-bottom: 1px solid #c7c7c7;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.yg_rows>div>li .leftimg {
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    width: 173px;
+
+
+
+
+
+
+    padding-left: 30px;
+
+
+
+
+
+
+    padding-right: 30px;
+
+
+
+
+
+
+    height: 240px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.yg_rows>div>li .rightinfo {
+
+
+
+
+
+
+    width: 910px;
+
+
+
+
+
+
+    height: 240px;
+
+
+
+
+
+
+    float: right;
+
+
+
+
+
+
+    padding-left: 40px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.yg_rows>div>li .rightinfo li {
+
+
+
+
+
+
+    width: 100%;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+    text-align: left;
+
+
+
+
+
+
+    line-height: 25px;
+
+
+
+
+
+
+    margin-right: 5px;
+
+
+
+
+
+
+    font-size: 12px;
+
+
+
+
+
+
+    color: #808080;
+
+
+
+
+
+
+    overflow: hidden;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.yg_rows>div>li .rightinfo .name {
+
+
+
+
+
+
+    font-size: 30px;
+
+
+
+
+
+
+    color: #4c4c4c;
+
+
+
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+    margin-bottom: 10px;
+
+
+
+
+
+
+    line-height: 45px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.yg_rows>div>li .rightinfo li span {
+
+
+
+
+
+
+    font-size: 14px;
+
+
+
+
+
+
+    color: #808080;
+
+
+
+
+
+
+    line-height: 25px;
+
+
+
+
+
+
+    margin-right: 5px;
+
+
+
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+    position: relative;
+
+
+
+
+
+
+    float: left;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+.wpthemeBannerInner{
+
+
+
+
+
+
+	background-color: #FFFFFF!important;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+/*****************************************************************************在线展览列表online-exhibition*****************************/
+
+
+
+
+
+
+ .online-box{
+
+
+
+
+
+
+ 	  	border-bottom:2px #7EC14E solid;
+
+
+
+
+
+
+ 	  	height:44px;	
+
+
+
+
+
+
+ }
+
+
+
+
+
+
+ .online-title{
+
+
+
+
+
+
+ 	color:#7EC14E;
+
+
+
+
+
+
+ 	font-family: "microsoft yahei";
+
+
+
+
+
+
+ 	font-size:18px;
+
+
+
+
+
+
+ 	text-align: left;
+
+
+
+
+
+
+ 	float: left;
+
+
+
+
+
+
+ 	line-height:50px;
+
+
+
+
+
+
+ }
+
+
+
+
+
+
+  .online-box .search-box{
+
+
+
+
+
+
+  	float: right;
+
+
+
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.peo ul li a img{
+
+
+
+
+
+
+	width:255px;
+
+
+
+
+
+
+	height:183px;
+
+
+
+
+
+
+	margin-bottom: 12px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+.peo ul li{
+
+
+
+
+
+
+	float:left;
+
+
+
+
+
+
+	background-color: #f5fcf9;
+
+
+
+
+
+
+    padding: 15px 15px;
+
+
+
+
+
+
+ 	margin-bottom: 20px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+.peo ul li p{
+
+
+
+
+
+
+	max-width: 255px;
+
+
+
+
+
+
+ 	white-space:nowrap;
+
+
+
+
+
+
+ 	overflow:hidden;
+
+
+
+
+
+
+ 	text-align: center;
+
+
+
+
+
+
+ 	text-overflow:ellipsis;
+
+
+
+
+
+
+ 	color: #4d4d4d;
+
+
+
+
+
+
+ 	font-family: "microsoft yahei";
+
+
+
+
+
+
+ 	font-size: 16px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+.peo ul{
+
+
+
+
+
+
+	text-align:justify;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+.peo ul li{
+
+
+
+
+
+
+	text-align:justify;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+.peo ul li:nth-last-child(1){
+
+
+
+
+
+
+	margin-left:20px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+.peo ul li:nth-last-child(2),
+
+
+
+
+
+
+.peo ul li:nth-last-child(3),
+
+
+
+
+
+
+.peo ul li:nth-last-child(5),
+
+
+
+
+
+
+.peo ul li:nth-last-child(6),
+
+
+
+
+
+
+.peo ul li:nth-last-child(7),
+
+
+
+
+
+
+.peo ul li:nth-last-child(9),
+
+
+
+
+
+
+.peo ul li:nth-last-child(10),
+
+
+
+
+
+
+.peo ul li:nth-last-child(11),
+
+
+
+
+
+
+.peo ul li:nth-last-child(13),
+
+
+
+
+
+
+.peo ul li:nth-last-child(14),
+
+
+
+
+
+
+.peo ul li:nth-last-child(15){
+
+
+
+
+
+
+	margin-left:20px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+/***onlinePhoto**/
+
+
+
+
+
+
+.online-box .back-photo a span{
+
+
+
+
+
+
+	width:100px;
+
+
+
+
+
+
+	height:24px;
+
+
+
+
+
+
+	border-radius: 4px;
+
+
+
+
+
+
+	border:1px #7EC14E solid;
+
+
+
+
+
+
+	float: right;
+
+
+
+
+
+
+	color:#7EC14E;
+
+
+
+
+
+
+	line-height: 24px;
+
+
+
+
+
+
+	margin-top: 12px;
+
+
+
+
+
+
+	
+
+
+
+
+
+
+}
+
+
+
+
+
+
+.peo-photo{
+
+
+
+
+
+
+	margin-bottom:60px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+.peo-photo ul li img{
+
+
+
+
+
+
+	width:285px;
+
+
+
+
+
+
+	height:192px;
+
+
+
+
+
+
+	margin-bottom: 12px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+.peo-photo ul li{
+
+
+
+
+
+
+	float:left;
+
+
+
+
+
+
+ 	margin-bottom: 34px;
+
+
+
+
+
+
+ 	margin-left: 7px;
+
+
+
+
+
+
+    margin-right: 7px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+.peo-photo ul li p{
+
+
+
+
+
+
+    max-width: 285px;
+
+
+
+
+
+
+    color: #4d4d4d;
+
+
+
+
+
+
+ 	font-family: "microsoft yahei";
+
+
+
+
+
+
+ 	font-size: 16px;
+
+
+
+
+
+
+    white-space: nowrap;
+
+
+
+
+
+
+    overflow: hidden;
+
+
+
+
+
+
+    text-align: center;
+
+
+
+
+
+
+    text-overflow: ellipsis;	
+
+
+
+
+
+
+}
+
+
+
+
+
+
+.peo-photo ul li:not(:first-child){
+
+
+
+
+
+
+	/*margin-left:20px;*/
+
+
+
+
+
+
+}
+/**到馆人数样式20180710**/
+.people-number .title{
+	height:50px;
+	line-height: 50px;
+	font-size: 18px;
+	font-family: "微软雅黑";
+	color:#4c4c4c;
+	font-weight: normal;
+	padding-bottom: 0;
+	padding-left:26px;
+	background-color:#ebebeb;
+	border-bottom: 2px #7EC14E solid;
+	margin-bottom: 0px;
+}
+.people-number .title span{
+	height:50px;
+	font-size: 18px;
+	font-family: "微软雅黑";
+	color:#7EC14E;
+	font-weight: normal;
+	font-weight:bold;
+	margin-left: 22px;
+}
+.people-number .frows li{
+	background-color:#F7F7F7;	
+	padding-left: 16px;
+	height:30px;
+    font-size: 16px;
+    color: #4c4c4c;
+    text-align: left;
+    text-indent: 15px;
+    line-height:30px;
+}
+.people-number .frows li span{	
+	height:30px;
+    font-size: 18px;
+    color: #7EC14E;
+    float: right;
+    margin-right:26px;
+    line-height:30px;
+}
+.people-number .frows li:nth-last-child(1){
+	height:80px;
+	line-height:80px;	
+}
+.people-number .frows li:nth-last-child(1) span{
+	height:80px;
+	line-height:80px;	
+}
+.people-number .frows li:nth-last-child(6){
+  padding-top:12px;
+	
+}
+/*2018-09-07  wang   增加个人中心资料修改样式*/
+.box_cont .box_frm ol li,
+.updatepassword ul li{
+	font-size:16px;
+	font-family: "微软雅黑";
+	color:#5b5b5b;
+	font-weight:bold;
+	margin-bottom:15px;
+}
+.box_cont .box_frm ol li input,
+.updatepassword ul li input{
+	 border:none;
+	 border-bottom: 1px #dedede solid;
+	 width:220px;
+	 outline:none;
+	 height:30px;
+	 line-height:30px;
+	 text-indent: 0.5em;
+}
+.box_cont .box_frm ol li .getcode{
+    border:1px #dedede  solid;
+	padding:6px 15px;
+	border-radius: 20px;
+	width:120px;
+	line-height: 19px;
+	height:30px;
+}
+.box_cont .box_frm ol li:last-child input,
+.updatepassword ul li:last-child input{
+    width:120px;
+    background-color: #7EC14E;
+    border-radius:20px;
+    text-align: center;
+    color:#FFFFFF;
+}
+.box_cont .box_frm ol li a {
+	border:1px #dedede  solid;
+	padding:6px 15px;
+	border-radius: 20px;
+}
+.img{opacity:0;}
+.imgs{
+	width:80px;
+	height:10px;
+	line-height: 10px;
+	margin:0 auto;
+	border:1px solid #dedede;
+	color: #5b5b5b;
+	font-size:12px;
+	border-radius: 4px;
+	text-align:center;cursor: pointer;
+    padding:10px;
+    margin-top: 10px;
+}
+.updatepassword ul li{
+	margin-top: 35px;
+}
+#getcodes{
+    outline: none;
+    border: 1px #dedede solid;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-size: 12px;
+    width: 100px;
+    height:30px;
+    line-height: 30px;
+    margin-left: 10px;
+    padding-bottom: 2px;
+    opacity: 0.7;
+    
+}
+#form li:nth-last-child(3){
+	margin-top:10px !important;
+}
+/**重构的登录页面   ie 兼容**/
+.login-bg{
+	background-image: url(../../images/login/banner.jpg);
+}
+.card{
+	/*background-image: url(../../images/login.png);
+	background-repeat: no-repeat;*/
+	width:50%;
+	margin: 0 auto;
+	margin-top: 10%;
+}
+.login-left{
+    /*float:left;*/
+	position:relative;
+	background-color: #FFFFFF;
+}
+/*.login-left span:nth-last-child(1),
+.login-left span:nth-last-child(2){
+     position:absolute;
+}*/
+.login-left form  li{
+	color:#7EC14E;
+	font-size:24px;
+}
+#inputCode < li{
+   width:250px;
+   margin:0 auto;
+}
+.login-left form  li div{
+   display:inline-block;
+}
+.login-left  form li input{
+	color:black;
+}
+.login-left  form li .kan{
+	left:50px!important;
+}
+.login-left  form li #chcekCode{
+	left:110px !important;
+}
+
+.login-right{
+	float:right;
+	background-image: url(../../images/login1.png);
+	
+}
+.card .login-left,
+.card .login-right{
+	  width:50%;
+	  display: inline-block;
+	  height:350px;
+	  padding-top:40px;
+}
+
+#checkCode{
+	position:relative;
+	top:12px;
+	left:16px;
+	display:inline;
+}
+#clearbutton{
+	color:#4e7fc1;
+	position:relative;
+	left:-42px;
+	font-size:12px;
+	top:50px;
+}
+.yanj_1{
+	position:relative;
+	left:50px;
+	top:-186px;
+	*top:-170px;
+	_top:-170px;
+	cursor:pointer;
+}
+.yanj_2{
+	position:relative;
+	left:62px;
+	top:-186px;
+	cursor:pointer;
+}
+

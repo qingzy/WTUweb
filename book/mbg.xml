@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+    <context id="DB2Tables" targetRuntime="MyBatis3">
+        <commentGenerator>
+            <!-- 是否去除自动生成的注释 true：是 ： false:否 -->
+            <property name="suppressAllComments" value="true" />
+        </commentGenerator>
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://localhost:3306/book?characterEncoding=UTF-8"
+                        userId="root"
+                        password="root">
+        </jdbcConnection>
+        <!-- 避免生成之后的实体中number类型转换成JAVA类型会被转换为BigDecimal类型。-->
+        <javaTypeResolver >
+            <property name="forceBigDecimals" value="false" />
+        </javaTypeResolver>
+        <!-- pojo类配置
+        targetPackage表示pojo生成的目标文件夹
+        targetProject表示目标文件夹在什么位置
+        -->
+        <javaModelGenerator targetPackage="zyq.pojo" targetProject=".\src\main\java">
+            <!-- enableSubPackages:是否让schema作为包的后缀 -->
+            <property name="enableSubPackages" value="true" />
+            <!-- 从数据库返回的值被清理前后的空格 -->
+            <property name="trimStrings" value="true" />
+        </javaModelGenerator>
+        <!-- sql映射文件xml生成的配置 -->
+        <sqlMapGenerator targetPackage="mapper"  targetProject=".\src\main\resources">
+            <property name="enableSubPackages" value="true" />
+        </sqlMapGenerator>
+        <!-- dao接口生成的配置 -->
+        <javaClientGenerator type="XMLMAPPER" targetPackage="zyq.mapper"  targetProject=".\src\main\java">
+            <property name="enableSubPackages" value="true" />
+        </javaClientGenerator>
+        <!-- 数据库表与实体类映射关系
+        tableName表示名
+        domainObjectName实体类名称
+        -->
+        <table tableName="books" domainObjectName="Books"/>
+        <table tableName="records" domainObjectName="Records"/>
+        <table tableName="users" domainObjectName="Users"/>
+    </context>
+</generatorConfiguration>

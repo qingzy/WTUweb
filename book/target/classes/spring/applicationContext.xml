@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <beans xmlns="http://www.springframework.org/schema/beans"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:aop="http://www.springframework.org/schema/aop"
+           xmlns:tx="http://www.springframework.org/schema/tx"
+           xmlns:context="http://www.springframework.org/schema/context"
+           xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd
+        http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd
+         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+    <!-- 1.开启spring注解驱动 -->
+    <context:component-scan base-package="zyq.service"></context:component-scan>
+    <!--2.读取properties配置文件-->
+  <!--  <context:property-placeholder location="classpath:properties/db.properties"/>-->
+
+    <!-- 3.连接数据库 连接池是c3p0-->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource" >
+        <property name="driverClass" value="com.mysql.jdbc.Driver"/>
+        <!-- 配置Jdbc的Url -->
+        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/book?characterEncoding=utf-8"/>
+        <!-- 配置用户名 -->
+        <property name="user" value="root"/>
+        <!-- 密码 -->
+        <property name="password" value="root"/>
+    </bean>
+
+    <!-- 4.配置事务管理器 -->
+    <bean id="transactionManager"
+          class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <!-- 事务管理数据库连接池 -->
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+
+    <!--5.配置注解版事务开启注解-->
+    <tx:annotation-driven transaction-manager="transactionManager"/>
+
+    <!--6.spring管理mybatis配置文件-->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+       <!--dataSource属性指定要用到的连接池 ref映射的是id=dataSource是bean的标签 读取连接数据库信息 -->
+        <property name="dataSource" ref="dataSource"></property>
+        <!--configuration属性指定mybatis核心配置文件 管理mybatis的配置文件-->
+        <property name="configLocation" value="classpath:mybatis/sqlMapperConfig.xml"/>
+        <!--所有配置的mapper文件，mybatis的实体类配置文件所有的sql映射文件-->
+       <property name="mapperLocations" value="classpath:mapper/*.xml"></property>
+    </bean>
+    <!--7.spring管理mybatis映射接口和sql映射文件之间关联关系-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="zyq.mapper"/>
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+    </bean>
+
+    <!--文件上传的配置-->
+    <bean id="multipartResolver"
+          class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <property name="maxUploadSize" value="500000"/>
+        <property name="defaultEncoding" value="UTF-8"/>
+    </bean>
+</beans>
